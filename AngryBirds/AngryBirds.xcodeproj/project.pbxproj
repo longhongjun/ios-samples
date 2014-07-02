@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31060C3F195EB7F9002EA82D /* StartScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31060C3E195EB7F9002EA82D /* StartScene.mm */; };
+		3117E8731962F09700298CDD /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117E8721962F09700298CDD /* Bird.m */; };
 		312BD863195D9A44004E368E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312BD862195D9A44004E368E /* Foundation.framework */; };
 		312BD865195D9A44004E368E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312BD864195D9A44004E368E /* CoreGraphics.framework */; };
 		312BD867195D9A44004E368E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312BD866195D9A44004E368E /* UIKit.framework */; };
@@ -312,6 +313,7 @@
 		31A3D79B195DAAA8009D27AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A3D79A195DAAA8009D27AB /* AVFoundation.framework */; };
 		31A3D79D195DAAB0009D27AB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A3D79C195DAAB0009D27AB /* libz.dylib */; };
 		31A3D7A0195DBA5E009D27AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A3D79F195DBA5E009D27AB /* RootViewController.m */; };
+		31CA78CF196444880078F816 /* SpriteBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 31CA78CE196444880078F816 /* SpriteBase.m */; };
 		31CFC2FD195ECCE40032BFFF /* LevelScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC2FC195ECCE40032BFFF /* LevelScene.mm */; };
 		31F411D4195E57CE00785A36 /* LoadingScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31F411D3195E57CE00785A36 /* LoadingScene.mm */; };
 /* End PBXBuildFile section */
@@ -329,6 +331,8 @@
 /* Begin PBXFileReference section */
 		31060C3D195EB7F9002EA82D /* StartScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScene.h; sourceTree = "<group>"; };
 		31060C3E195EB7F9002EA82D /* StartScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StartScene.mm; sourceTree = "<group>"; };
+		3117E8711962F09700298CDD /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		3117E8721962F09700298CDD /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
 		312BD85F195D9A44004E368E /* AngryBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngryBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		312BD862195D9A44004E368E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		312BD864195D9A44004E368E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -798,6 +802,8 @@
 		31A3D79C195DAAB0009D27AB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		31A3D79E195DBA5E009D27AB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		31A3D79F195DBA5E009D27AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		31CA78CD196444880078F816 /* SpriteBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteBase.h; sourceTree = "<group>"; };
+		31CA78CE196444880078F816 /* SpriteBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteBase.m; sourceTree = "<group>"; };
 		31CFC2FB195ECCE40032BFFF /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
 		31CFC2FC195ECCE40032BFFF /* LevelScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LevelScene.mm; sourceTree = "<group>"; };
 		31F411D2195E57C200785A36 /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScene.h; sourceTree = "<group>"; };
@@ -876,6 +882,7 @@
 		312BD868195D9A44004E368E /* AngryBirds */ = {
 			isa = PBXGroup;
 			children = (
+				31CC37A91962F017008EB2A4 /* Sprites */,
 				31CB0DB6195E573E00462F21 /* Scenes */,
 				312BD871195D9A44004E368E /* AppDelegate.h */,
 				312BD872195D9A44004E368E /* AppDelegate.mm */,
@@ -1555,6 +1562,17 @@
 			name = Scenes;
 			sourceTree = "<group>";
 		};
+		31CC37A91962F017008EB2A4 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				31CA78CD196444880078F816 /* SpriteBase.h */,
+				31CA78CE196444880078F816 /* SpriteBase.m */,
+				3117E8711962F09700298CDD /* Bird.h */,
+				3117E8721962F09700298CDD /* Bird.m */,
+			);
+			name = Sprites;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1869,10 +1887,12 @@
 				31A3D70C195DA993009D27AB /* CCActionPageTurn3D.m in Sources */,
 				31A3D72C195DA993009D27AB /* CCSprite.m in Sources */,
 				31A3D700195DA993009D27AB /* b2PrismaticJoint.cpp in Sources */,
+				3117E8731962F09700298CDD /* Bird.m in Sources */,
 				31A3D70B195DA993009D27AB /* CCActionManager.m in Sources */,
 				31A3D6F5195DA993009D27AB /* b2Contact.cpp in Sources */,
 				31A3D6EC195DA993009D27AB /* b2Settings.cpp in Sources */,
 				31A3D6F3195DA993009D27AB /* b2WorldCallbacks.cpp in Sources */,
+				31CA78CF196444880078F816 /* SpriteBase.m in Sources */,
 				31A3D742195DA993009D27AB /* glu.c in Sources */,
 				31A3D71A195DA993009D27AB /* CCLabelAtlas.m in Sources */,
 				31A3D733195DA993009D27AB /* CCTexturePVR.m in Sources */,
