@@ -111,7 +111,7 @@
                 [tran release];
             // 如果是选关按钮
             } else if (sprite.tag > 0 && sprite.tag <= LEVEL_COUNT){
-                CCScene *gameScene = [GameScene scene];
+                CCScene *gameScene = [GameScene sceneWithLevel:sprite.tag];
                 [[CCDirector sharedDirector] replaceScene:gameScene];
             }
         }

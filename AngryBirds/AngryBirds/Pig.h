@@ -1,13 +1,14 @@
 //
-//  SpriteBase.m
+//  Bird.h
 //  AngryBirds
 //
-//  Created by gukemanbu on 14-7-2.
+//  Created by gukemanbu on 14-7-1.
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 
+#import <Foundation/Foundation.h>
 #import "SpriteBase.h"
 
-@implementation SpriteBase
+@interface Pig : SpriteBase
 
 @end

@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIApplication *application = [UIApplication sharedApplication];
+    [application setStatusBarHidden:YES];
 }
 
 - (void)didReceiveMemoryWarning

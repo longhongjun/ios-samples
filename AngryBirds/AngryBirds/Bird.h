@@ -6,10 +6,16 @@
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 
-#import "CCSprite.h"
+#import "SpriteBase.h"
 
-@interface Bird : CCSprite {
-    BOOL isReady;
+@interface Bird : SpriteBase {
+    BOOL _isReady;
+    BOOL _isFlying;
 }
+
+@property (nonatomic, assign) BOOL isReady;
+@property (nonatomic, assign) BOOL isFlying;
+
+-(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer;
 
 @end

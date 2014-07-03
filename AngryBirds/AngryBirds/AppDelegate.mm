@@ -19,6 +19,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     
+    // 隐藏状态栏
+    [application setStatusBarHidden:YES];
     // 设置导演类型
     if (![CCDirector setDirectorType:CCDirectorTypeDisplayLink]) {
         [CCDirector setDirectorType:CCDirectorTypeDefault];

@@ -1,0 +1,22 @@
+//
+//  SpriteBase.m
+//  AngryBirds
+//
+//  Created by gukemanbu on 14-7-2.
+//  Copyright (c) 2014年 youup. All rights reserved.
+//
+
+#import "SpriteBase.h"
+
+@implementation SpriteBase
+
+@synthesize HP;
+
+-(id) initWithX:(float)x andY:(float)y andWorld:(b2World *)world andLayer:(CCLayer<SpriteDelegate> *)layer {
+    return nil;
+}
+
+-(void) destroy {
+}
+
+@end

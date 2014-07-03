@@ -6,10 +6,25 @@
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 
-#import "CCLayer.h"
+#import <Foundation/Foundation.h>
+//#import "CCLayer.h"
+#import "cocos2d.h"
+#import "SpriteBase.h"
+#import "Bird.h"
+#import "Pig.h"
+#import "Ice.h"
+#import "LevelReader.h"
+#import "LevelScene.h"
 
-@interface GameScene : CCLayer
+@interface GameScene : CCLayer<SpriteDelegate, CCTargetedTouchDelegate> {
+    // 当前关序号
+    int currentLevel;
+    // 小鸟数组
+    NSMutableArray *birds;
+    b2World *world;
+}
 
-+(id) scene;
++(id) sceneWithLevel:(int)levelNum;
+-(id) initWithLevel:(int)levelNum;
 
 @end

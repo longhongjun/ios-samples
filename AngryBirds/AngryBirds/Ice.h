@@ -1,14 +1,14 @@
 //
-//  Bird.m
+//  Bird.h
 //  AngryBirds
 //
 //  Created by gukemanbu on 14-7-1.
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 
-#import "Bird.h"
+#import <Foundation/Foundation.h>
+#import "SpriteBase.h"
 
-@implementation Bird
-
+@interface Ice : SpriteBase
 
 @end
