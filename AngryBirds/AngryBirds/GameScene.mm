@@ -48,6 +48,9 @@
     // 第一个小鸟跳到弹工上
     [self birdJumpToShot];
     
+    // 画弹弓线
+    [self drawShotSling];
+    
     // 打开触摸开关并注册从cocos2d事件
     [self setIsTouchEnabled:YES];
     [[CCTouchDispatcher sharedDispatcher] addTargetedDelegate:self priority:0 swallowsTouches:YES];
@@ -133,12 +136,44 @@
     
 }
 
+-(void) drawShotSling {
+    shotSling = [[ShotSling alloc] init];
+    shotSling.startPoint1 = ccp(80.0f, 128.0f);
+    shotSling.startPoint2 = ccp(90.0f, 128.0f);
+    shotSling.endPoint = ccp(85.0f, 125.0f);
+    shotSling.contentSize = CGSizeMake(480.0f, 320.0f);
+    shotSling.position = ccp(240.0f, 160.0f);
+    
+    [self addChild:shotSling];
+    //[shotsling release];
+}
+
 -(BOOL) ccTouchBegan:(UITouch *)touch withEvent:(UIEvent *)event{
+    if (currentBird == nil) {
+        return NO;
+    }
+    
+    touchStatus = TOUCH_UNKNOW;
+    CGPoint touchPoint = [self convertTouchToNodeSpace:touch];
+    
+    CGRect birdRect = currentBird.boundingBox;
+    if (CGRectContainsPoint(birdRect, touchPoint)) {
+        touchStatus = TOUCH_BIRD;
+    }
+    
     return YES;
 }
 
 -(void) ccTouchMoved:(UITouch *)touch withEvent:(UIEvent *)event {
+    if (touchStatus != TOUCH_BIRD) {
+        return;
+    }
     
+    // 获得触摸点
+    CGPoint touchPoint = [self convertTouchToNodeSpace:touch];
+    // 更新弹弓和小鸟的顶点
+    shotSling.endPoint = touchPoint;
+    currentBird.position = touchPoint;
 }
 
 -(void) ccTouchEnded:(UITouch *)touch withEvent:(UIEvent *)event {

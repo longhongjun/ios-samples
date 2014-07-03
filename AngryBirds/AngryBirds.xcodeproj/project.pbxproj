@@ -25,6 +25,7 @@
 		316109B21965401A001EC256 /* SpriteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 316109B11965401A001EC256 /* SpriteModel.m */; };
 		316109B519654A38001EC256 /* Ice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 316109B419654A38001EC256 /* Ice.mm */; };
 		3165F94D19653EC900CF8FEB /* LevelReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3165F94C19653EC900CF8FEB /* LevelReader.m */; };
+		3182F2C71965912C00E764EE /* ShotSling.m in Sources */ = {isa = PBXBuildFile; fileRef = 3182F2C61965912C00E764EE /* ShotSling.m */; };
 		31A3D676195DA993009D27AB /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A3D4A5195DA992009D27AB /* 1.png */; };
 		31A3D677195DA993009D27AB /* 100001.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A3D4A6195DA992009D27AB /* 100001.png */; };
 		31A3D678195DA993009D27AB /* 100002.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A3D4A7195DA992009D27AB /* 100002.png */; };
@@ -361,6 +362,8 @@
 		316109B419654A38001EC256 /* Ice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Ice.mm; sourceTree = "<group>"; };
 		3165F94B19653EC900CF8FEB /* LevelReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelReader.h; sourceTree = "<group>"; };
 		3165F94C19653EC900CF8FEB /* LevelReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelReader.m; sourceTree = "<group>"; };
+		3182F2C51965912C00E764EE /* ShotSling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotSling.h; sourceTree = "<group>"; };
+		3182F2C61965912C00E764EE /* ShotSling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotSling.m; sourceTree = "<group>"; };
 		31A3D4A5195DA992009D27AB /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		31A3D4A6195DA992009D27AB /* 100001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100001.png; sourceTree = "<group>"; };
 		31A3D4A7195DA992009D27AB /* 100002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100002.png; sourceTree = "<group>"; };
@@ -1567,6 +1570,8 @@
 				316109B11965401A001EC256 /* SpriteModel.m */,
 				3165F94B19653EC900CF8FEB /* LevelReader.h */,
 				3165F94C19653EC900CF8FEB /* LevelReader.m */,
+				3182F2C51965912C00E764EE /* ShotSling.h */,
+				3182F2C61965912C00E764EE /* ShotSling.m */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -1873,6 +1878,7 @@
 				31A3D6E8195DA993009D27AB /* b2CircleShape.cpp in Sources */,
 				31A3D702195DA993009D27AB /* b2RevoluteJoint.cpp in Sources */,
 				31A3D704195DA993009D27AB /* CCAction.m in Sources */,
+				3182F2C71965912C00E764EE /* ShotSling.m in Sources */,
 				31A3D716195DA993009D27AB /* CCDirector.m in Sources */,
 				31A3D6FC195DA993009D27AB /* b2GearJoint.cpp in Sources */,
 				31A3D725195DA993009D27AB /* CCParticleSystemPoint.m in Sources */,

@@ -15,12 +15,23 @@
 #import "Ice.h"
 #import "LevelReader.h"
 #import "LevelScene.h"
+#import "ShotSling.h"
+
+#define TOUCH_UNKNOW 0
+#define TOUCH_BIRD 1
 
 @interface GameScene : CCLayer<SpriteDelegate, CCTargetedTouchDelegate> {
     // 当前关序号
     int currentLevel;
     // 小鸟数组
     NSMutableArray *birds;
+    // 当前小鸟
+    Bird *currentBird;
+    // 弹弓线
+    ShotSling *shotSling;
+    // 触摸状态
+    int touchStatus;
+    
     b2World *world;
 }
 
