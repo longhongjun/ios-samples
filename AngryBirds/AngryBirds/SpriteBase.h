@@ -16,6 +16,9 @@
 #define TYPE_PIG 2
 #define TYPE_ICE 3
 
+// 每米32个像素点
+#define PPI32_M 32
+
 @protocol SpriteDelegate;
 
 @interface SpriteBase : CCSprite {
@@ -23,9 +26,9 @@
     float HP;
     int fullHP;
     // 父layer
-    CCLayer<SpriteDelegate> *ownerLayer;
-    b2World *myWorld;
-    b2Body *myBody;
+    CCLayer<SpriteDelegate> *_layer;
+    b2World *_world;
+    b2Body *_body;
 }
 
 @property (nonatomic, assign) float HP;

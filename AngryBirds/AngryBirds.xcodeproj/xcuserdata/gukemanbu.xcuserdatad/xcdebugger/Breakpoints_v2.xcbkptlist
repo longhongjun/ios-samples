@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AngryBirds/GameScene.mm"
-            timestampString = "426089278.797844"
+            timestampString = "426257887.938749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
             landmarkName = "-loadFromFile"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AngryBirds/GameScene.mm"
-            timestampString = "426089278.797844"
+            timestampString = "426257887.938749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "@implementation GameScene"
             landmarkType = "3">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AngryBirds/GameScene.mm"
-            timestampString = "426089278.797844"
+            timestampString = "426257887.938749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-addBirds"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AngryBirds/GameScene.mm"
-            timestampString = "426089278.797844"
+            timestampString = "426257887.938749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
             landmarkName = "-addBirds"
             landmarkType = "5">
          </BreakpointContent>

@@ -11,8 +11,8 @@
 @implementation Pig
 
 -(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer {
-    ownerLayer = layer;
-    myWorld = world;
+    _layer = layer;
+    _world = world;
     
     self = [super initWithFile:@"pig1.png"];
     self.HP = 1;

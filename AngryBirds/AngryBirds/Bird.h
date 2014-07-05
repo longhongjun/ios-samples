@@ -17,5 +17,5 @@
 @property (nonatomic, assign) BOOL isFlying;
 
 -(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer;
-
+-(void) getShot:(float)x andY:(int)y;
 @end

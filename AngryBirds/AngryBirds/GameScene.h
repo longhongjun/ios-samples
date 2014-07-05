@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "CCLayer.h"
 #import "cocos2d.h"
 #import "SpriteBase.h"
 #import "Bird.h"
@@ -19,20 +18,24 @@
 
 #define TOUCH_UNKNOW 0
 #define TOUCH_BIRD 1
+#define TOUCH_BACK 2
+#define SHOTSLING_INIT_POINT CGPointMake(85.0f, 125.0f)
 
 @interface GameScene : CCLayer<SpriteDelegate, CCTargetedTouchDelegate> {
     // 当前关序号
     int currentLevel;
+    // 返回按钮
+    CCSprite *backSprite;
     // 小鸟数组
-    NSMutableArray *birds;
+    NSMutableArray *_birdArr;
     // 当前小鸟
     Bird *currentBird;
     // 弹弓线
-    ShotSling *shotSling;
+    ShotSling *_shotSling;
     // 触摸状态
     int touchStatus;
     
-    b2World *world;
+    b2World *_world;
 }
 
 +(id) sceneWithLevel:(int)levelNum;
