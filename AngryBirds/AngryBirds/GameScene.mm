@@ -69,6 +69,10 @@
     // 创建世界
     _world = new b2World(gravity, true);
     
+    // 设置监听器
+    MyContactListener *listener = new MyContactListener(_world, self);
+    _world->SetContactListener(listener);
+    
     // 定义地面
     b2BodyDef groundDef;
     groundDef.position.Set(0.0f, 0.0f);
@@ -94,11 +98,24 @@
     
     b2Body *body = _world->GetBodyList();
     while (body) {
-        CCSprite *sprite =  (CCSprite *)body->GetUserData();
+        SpriteBase *sprite =  (SpriteBase *)body->GetUserData();
         if (sprite) {
             [sprite setPosition:ccp(body->GetPosition().x * PPI32_M, body->GetPosition().y * PPI32_M)];
             [sprite setRotation: -1 * CC_RADIANS_TO_DEGREES(body->GetAngle())];
+            
+            // 小鸟不动了则删掉
+            if (sprite.tag == TYPE_BIRD && !body->IsAwake()) {
+                _world->DestroyBody(body);
+                [sprite destroy];
+            }
+            
+            // 生命值为0或超出界外则删掉
+            if (sprite.HP <= 0 || sprite.position.x < 0.0f || sprite.position.x > 480.0f || sprite.position.y < 85.0f || sprite.position.y > 320.0f) {
+                _world->DestroyBody(body);
+                [sprite destroy];
+            }
         }
+        
         body=body->GetNext();
     }
 }

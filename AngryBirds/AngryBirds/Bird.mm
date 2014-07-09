@@ -14,8 +14,8 @@
 @synthesize isFlying = _isFlying;
 
 -(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer {
-    _layer = layer;
     _world = world;
+    _layer = layer;
     
     self = [super initWithFile:@"bird1.png"];
     self.HP = 10000;
@@ -64,6 +64,32 @@
     
     // 设置小鸟受到的力
     _body->ApplyLinearImpulse(b2Vec2(x, y), birdDef.position);
+}
+
+-(void) hitAnimation:(float)x andY:(float)y {
+    for (int i = 0; i<6; i++) {
+        int range = 2;
+        
+        CCSprite *yumao = [CCSprite spriteWithFile:@"yumao1.png"];
+        yumao.scale = (float)(arc4random() % 5 / 10.0f);
+        
+        float tempX = x + arc4random() % 10 * range - 10;
+        float tempY = y + arc4random() % 10 * range - 10;
+        yumao.position = CGPointMake(tempX, tempY);
+        
+        
+        tempX = x + arc4random() % 10 * range - 10;
+        tempY = y + arc4random() % 10 * range - 10;
+        id actionMove = [CCMoveTo actionWithDuration:1 position:CGPointMake(tempX, tempY)];
+        id actionFadeOut = [CCFadeOut actionWithDuration:1];
+        id actionRotate = [CCRotateBy actionWithDuration:1 angle:arc4random() % 180];
+        //id actionEnd = [CCCallFuncN actionWithTarget:self selector:@selector(removeFromLayer:)];
+        
+        id asynActions =[CCSpawn actions:actionMove, actionFadeOut, actionRotate, nil];
+        [yumao runAction:[CCSequence actions:asynActions, nil]];
+        
+        [_layer addChild:yumao];
+    }
 }
 
 @end

@@ -33,6 +33,7 @@
 
 @property (nonatomic, assign) float HP;
 -(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer;
+-(void)removeFromLayer:(id)sender;
 -(void) destroy;
 
 @end

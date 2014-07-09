@@ -318,6 +318,7 @@
 		31A3D79D195DAAB0009D27AB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31A3D79C195DAAB0009D27AB /* libz.dylib */; };
 		31A3D7A0195DBA5E009D27AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A3D79F195DBA5E009D27AB /* RootViewController.m */; };
 		31B68DCD1965395000E3469A /* Pig.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31B68DCC1965395000E3469A /* Pig.mm */; };
+		31C00D98196ADAFF006F39DA /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31C00D97196ADAFF006F39DA /* MyContactListener.mm */; };
 		31CA78CF196444880078F816 /* SpriteBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31CA78CE196444880078F816 /* SpriteBase.mm */; };
 		31CFC2FD195ECCE40032BFFF /* LevelScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31CFC2FC195ECCE40032BFFF /* LevelScene.mm */; };
 		31F411D4195E57CE00785A36 /* LoadingScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = 31F411D3195E57CE00785A36 /* LoadingScene.mm */; };
@@ -817,6 +818,8 @@
 		31A3D79F195DBA5E009D27AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		31B68DCB1965395000E3469A /* Pig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
 		31B68DCC1965395000E3469A /* Pig.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Pig.mm; sourceTree = "<group>"; };
+		31C00D96196ADAFF006F39DA /* MyContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactListener.h; sourceTree = "<group>"; };
+		31C00D97196ADAFF006F39DA /* MyContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyContactListener.mm; sourceTree = "<group>"; };
 		31CA78CD196444880078F816 /* SpriteBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteBase.h; sourceTree = "<group>"; };
 		31CA78CE196444880078F816 /* SpriteBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpriteBase.mm; sourceTree = "<group>"; };
 		31CFC2FB195ECCE40032BFFF /* LevelScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelScene.h; sourceTree = "<group>"; };
@@ -1566,6 +1569,8 @@
 		31B68DCE19653CFA00E3469A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				31C00D96196ADAFF006F39DA /* MyContactListener.h */,
+				31C00D97196ADAFF006F39DA /* MyContactListener.mm */,
 				316109B01965401A001EC256 /* SpriteModel.h */,
 				316109B11965401A001EC256 /* SpriteModel.m */,
 				3165F94B19653EC900CF8FEB /* LevelReader.h */,
@@ -1594,14 +1599,14 @@
 		31CC37A91962F017008EB2A4 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
-				316109B319654A38001EC256 /* Ice.h */,
-				316109B419654A38001EC256 /* Ice.mm */,
 				31CA78CD196444880078F816 /* SpriteBase.h */,
 				31CA78CE196444880078F816 /* SpriteBase.mm */,
 				3117E8711962F09700298CDD /* Bird.h */,
 				3117E8721962F09700298CDD /* Bird.mm */,
 				31B68DCB1965395000E3469A /* Pig.h */,
 				31B68DCC1965395000E3469A /* Pig.mm */,
+				316109B319654A38001EC256 /* Ice.h */,
+				316109B419654A38001EC256 /* Ice.mm */,
 			);
 			name = Sprites;
 			sourceTree = "<group>";
@@ -1986,6 +1991,7 @@
 				31A3D758195DA993009D27AB /* FontLabelStringDrawing.m in Sources */,
 				31A3D6F9195DA993009D27AB /* b2TOISolver.cpp in Sources */,
 				31A3D738195DA993009D27AB /* CCTMXXMLParser.m in Sources */,
+				31C00D98196ADAFF006F39DA /* MyContactListener.mm in Sources */,
 				312BD86F195D9A44004E368E /* main.m in Sources */,
 				31A3D6F0195DA993009D27AB /* b2Fixture.cpp in Sources */,
 				31A3D753195DA993009D27AB /* SimpleAudioEngine.m in Sources */,
@@ -2115,7 +2121,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";
@@ -2131,7 +2136,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngryBirds/AngryBirds-Prefix.pch";

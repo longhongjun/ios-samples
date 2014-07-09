@@ -57,7 +57,7 @@
     NSUInteger length = [[lblLoading string] length];
     
     // 加载小点
-    if (length < 10) {
+    if (length < 9) {
         [lblLoading setString:[NSString stringWithFormat:@"%@%@", [lblLoading string], @"."]];
         return;
     }

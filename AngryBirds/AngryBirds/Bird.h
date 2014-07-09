@@ -18,4 +18,10 @@
 
 -(id) initWithX:(float)x andY:(float)y andWorld:(b2World*)world andLayer:(CCLayer<SpriteDelegate> *)layer;
 -(void) getShot:(float)x andY:(int)y;
+-(void) destroy;
+
+// 小鸟撞击动画
+-(void) hitAnimation:(float)x andY:(float)y;
+
+
 @end

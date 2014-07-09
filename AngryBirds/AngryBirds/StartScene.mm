@@ -98,6 +98,29 @@
 }
 
 -(void) finishedFlying: (CCNode *) currenNode {
+    for (int i = 0; i<10; i++) {
+        int random = arc4random() % 3 + 1;
+        int range = 6;
+        
+        CCSprite *sprite = [CCSprite spriteWithFile:[NSString stringWithFormat:@"yumao%d.png", random]];
+        sprite.scale = (float)(arc4random() % 5 / 10.0f);
+        
+        float tempX = currenNode.position.x + arc4random() % 10 * range - 20;
+        float tempY = currenNode.position.y + arc4random() % 10 * range - 10;
+        sprite.position = CGPointMake(tempX, tempY);
+        
+        tempX = currenNode.position.x + arc4random() % 10 * range - 20;
+        tempY = currenNode.position.y + arc4random() % 10 * range - 10;
+        id actionMove = [CCMoveTo actionWithDuration:1 position:CGPointMake(tempX, tempY)];
+        id actionAlpha = [CCFadeOut actionWithDuration:1];
+        id actionRotate = [CCRotateTo actionWithDuration:1 angle:arc4random() % 180];
+        id actions =[CCSpawn actions:actionMove, actionAlpha, actionRotate, nil];
+        
+        [sprite runAction:[CCSequence actions:actions, nil]];
+        
+        [self addChild:sprite];
+    }
+    
     [currenNode removeFromParentAndCleanup:YES];
 }
 

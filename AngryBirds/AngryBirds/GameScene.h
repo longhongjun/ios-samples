@@ -15,6 +15,7 @@
 #import "LevelReader.h"
 #import "LevelScene.h"
 #import "ShotSling.h"
+#import "MyContactListener.h"
 
 #define TOUCH_UNKNOW 0
 #define TOUCH_BIRD 1

@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCLabelBMFont.m \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/ccConfig.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCLabelBMFont.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCSpriteBatchNode.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCNode.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/CCGL.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/iOS/glu.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/iOS/EAGLView.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/iOS/ESRenderer.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCAction.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/ccTypes.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCTexture2D.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/CCNS.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCProtocols.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Support/CCArray.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Support/ccCArray.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCTextureAtlas.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/ccMacros.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Platforms/iOS/../../CCDirector.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Support/uthash.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCSprite.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCDrawingPrimitives.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/CCConfiguration.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Support/CCFileUtils.h \
+  /Users/gukemanbu/work/AngryBirds/libs/cocos2d/Support/CGPointExtension.h

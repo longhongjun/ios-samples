@@ -11,4 +11,6 @@
 
 @interface Pig : SpriteBase
 
+-(void) destroy;
+
 @end
