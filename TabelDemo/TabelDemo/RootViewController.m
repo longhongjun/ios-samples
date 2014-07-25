@@ -15,7 +15,7 @@
 @implementation RootViewController
 
 @synthesize dataList;
-@synthesize searchList;
+@synthesize displayList;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -31,8 +31,10 @@
     [super viewDidLoad];
     
     _rowConunt = 10;
-    self.dataList = [NSMutableArray arrayWithCapacity:TOTAL_ROW];
-    for (int i=0; i<TOTAL_ROW; i++) {
+    self.displayList = [NSMutableArray arrayWithCapacity:DEFAULT_ROW];
+    self.dataList = [NSMutableArray arrayWithCapacity:DEFAULT_ROW];
+    for (int i=0; i<DEFAULT_ROW; i++) {
+        [self.displayList addObject:[NSString stringWithFormat:@"Row%d", i+1]];
         [self.dataList addObject:[NSString stringWithFormat:@"Row%d", i+1]];
     }
     
@@ -74,7 +76,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return _rowConunt;
+    return displayList.count;
 }
 
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -84,7 +86,7 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = [dataList objectAtIndex:indexPath.row];
+    cell.textLabel.text = [displayList objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -96,9 +98,10 @@
     double delayInSeconds = 1.5;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
-        _rowConunt += 5;
-        if (_rowConunt > TOTAL_ROW) {
-            _rowConunt = TOTAL_ROW;
+        int count = displayList.count;
+        for (int i=count; i<count+5; i++) {
+            [self.displayList addObject:[NSString stringWithFormat:@"Row%i", i+1]];
+            [self.dataList addObject:[NSString stringWithFormat:@"Row%i", i+1]];
         }
         
         [self.tableView reloadData];
@@ -116,9 +119,10 @@
     double delayInSeconds = 1.5;
     dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(delayInSeconds * NSEC_PER_SEC));
     dispatch_after(popTime,dispatch_get_main_queue(), ^(void){
-        _rowConunt +=5;
-        if (_rowConunt > TOTAL_ROW) {
-            _rowConunt = TOTAL_ROW;
+        int count = displayList.count;
+        for (int i=count; i<count+5; i++) {
+            [self.displayList addObject:[NSString stringWithFormat:@"Row%i", i+1]];
+            [self.dataList addObject:[NSString stringWithFormat:@"Row%i", i+1]];
         }
         
         [self.tableView reloadData];
@@ -128,8 +132,13 @@
 }
 
 -(void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"self CONTAINS %@", searchText];
-    searchList = [NSMutableArray arrayWithArray:[self.dataList filteredArrayUsingPredicate:predicate]];
+    if ([@"" isEqualToString:searchText]) {
+        self.displayList = [NSMutableArray arrayWithArray:self.dataList];
+    } else {
+        NSPredicate *predicate = [NSPredicate predicateWithFormat:@"self CONTAINS %@", searchText];
+        self.displayList = [NSMutableArray arrayWithArray:[self.dataList filteredArrayUsingPredicate:predicate]];
+    }
+
     [self.tableView reloadData];
 }
 
@@ -146,14 +155,14 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

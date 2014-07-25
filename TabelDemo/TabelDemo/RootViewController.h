@@ -19,6 +19,6 @@
 }
 
 @property (nonatomic, strong) NSMutableArray *dataList;
-@property (nonatomic, strong) NSMutableArray *searchList;
+@property (nonatomic, strong) NSMutableArray *displayList;
 
 @end
