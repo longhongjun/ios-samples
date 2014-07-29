@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m \
-  /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.h
+  /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m \
+  /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.h

@@ -1,0 +1,352 @@
+TWangYI
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI normal i386
+cCopyStringsFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings WangYI/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app /Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets
+cProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist /Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist
+cGenerateDSYMFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI
+cTouch /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053AFE92600000000000003B4
+t1404037414
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053AFE934000000000000019E
+t1404037428
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053AFE9390000000000446820
+t1404037433
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053AFE93C000000000088D8C0
+t1404037436
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053AFE9450000000001F1DE10
+t1404037445
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053AFE9A90000000000000ADC
+t1404037545
+s2780
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch
+t1406281922
+s121552
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o
+t1406281922
+s63460
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o
+t1406281922
+s40148
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/WangYI.LinkFileList
+c0000000053D228C200000000000001AD
+t1406281922
+s429
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o
+t1406281922
+s3404
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_dependencies.txt
+t1406281923
+s376
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_generated_info.plist
+t1406281923
+s525
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app
+t1406281923
+s272
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM
+t2
+s0
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist
+t1406281923
+s976
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/PkgInfo
+t1406281923
+s8
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI
+t1406281922
+s17408
+
+N/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings
+t1406281922
+s42
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m
+c0000000053D228C1000000000000099A
+t1406281921
+s2458
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets
+c0000000053D227820000000000000088
+t1406281602
+s136
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m
+c0000000053D2280B0000000000000408
+t1406281739
+s1032
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist
+c0000000053D227820000000000000491
+t1406281602
+s1169
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Prefix.pch
+c0000000053D227820000000000000158
+t1406281602
+s344
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/en.lproj/InfoPlist.strings
+c0000000053D22782000000000000002D
+t1406281602
+s45
+
+N/Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m
+c0000000053D22782000000000000014B
+t1406281602
+s331
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbfb860426082b941^dcd470426082b941^---0#1#1#--18"Check dependencies36"999C4EEB-3C96-4860-9A1B-6FDE2E90ED3D-
+
+CCompileAssetCatalog /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app /Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets
+s427974722.724648
+e427974723.954898
+r1
+xCompileAssetCatalog
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app
+x/Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/LaunchImage-700-568h@2x.png
+o/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Assets.car
+o/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"CompileAssetCatalog Build/Products/Debug-iphonesimulator/WangYI.app WangYI/Images.xcassets90"CompileAssetCatalog Build/Products/Debug-iphonesimulator/WangYI.app WangYI/Images.xcassetsd996b9426082b941^da74f4436082b941^-404"/* com.apple.actool.compilation-results *//Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/LaunchImage-700-568h@2x.png/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Assets.car/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@71"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets/0000000000000000^1140"CompileAssetCatalog Build/Products/Debug-iphonesimulator/WangYI.app WangYI/Images.xcassets    cd /Users/gukemanbu/work/ios-samples/WangYI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app /Users/gukemanbu/work/ios-samples/WangYI/WangYI/Images.xcassets36"FCBA8EC3-203B-4723-9470-5AFAC4860BDF-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427974722.520640
+e427974722.642687
+r1
+xCompileC
+xBuild/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o
+x/Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m199"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o WangYI/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc76885426082b941^ce8aa4426082b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m0000000000000000^3644"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o WangYI/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/WangYI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.dia -c /Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.m -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o36"EF6C3D0F-A65E-416C-97B3-672B06A85624-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427974722.580511
+e427974722.674769
+r1
+xCompileC
+xBuild/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o
+x/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m213"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o WangYI/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler66bd94426082b941^1abfac426082b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m0000000000000000^3686"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o WangYI/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/WangYI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.dia -c /Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.m -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o36"F63B3BFF-C983-4AE8-BD2F-6126F258CBB6-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CCompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427974722.521410
+e427974722.580138
+r1
+xCompileC
+xBuild/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o
+x/Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m185"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o WangYI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6c9485426082b941^738494426082b941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m0000000000000000^3602"CompileC Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o WangYI/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/WangYI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.dia -c /Users/gukemanbu/work/ios-samples/WangYI/WangYI/main.m -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o36"97202BC7-A18A-4095-AF6A-5B824CA49F28-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CCopyStringsFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings WangYI/en.lproj/InfoPlist.strings
+s427974722.723909
+e427974722.726277
+r1
+xCopyStringsFile
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings
+xWangYI/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy WangYI/en.lproj/InfoPlist.strings124"CopyStringsFile Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings WangYI/en.lproj/InfoPlist.stringsbd6eb9426082b941^0bf0b9426082b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/en.lproj/InfoPlist.strings0000000000000000^593"CopyStringsFile Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj/InfoPlist.strings WangYI/en.lproj/InfoPlist.strings    cd /Users/gukemanbu/work/ios-samples/WangYI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/en.lproj -- WangYI/en.lproj/InfoPlist.strings36"51227705-F9C1-44D4-BA67-FD4854CF9873-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CGenerateDSYMFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI
+s427974723.959526
+e427974723.993143
+r1
+xGenerateDSYMFile
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generate /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM124"GenerateDSYMFile Build/Products/Debug-iphonesimulator/WangYI.app.dSYM Build/Products/Debug-iphonesimulator/WangYI.app/WangYI91b6f5436082b941^0b41fe436082b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM00348ca6deffdf42^661"GenerateDSYMFile Build/Products/Debug-iphonesimulator/WangYI.app.dSYM Build/Products/Debug-iphonesimulator/WangYI.app/WangYI    cd /Users/gukemanbu/work/ios-samples/WangYI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app.dSYM36"79B0A7AD-88A1-4E00-8F25-B1930D54CF49-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CLd /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI normal i386
+s427974722.675957
+e427974722.722723
+r1
+xLd
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI
+xnormal
+xi386
+d/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/WangYI.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/AppDelegate.o
+d/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/main.o
+d/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/RootViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Link /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI69"Ld Build/Products/Debug-iphonesimulator/WangYI.app/WangYI normal i3863126ad426082b941^2506b9426082b941^---0#0#1#--1380"Ld Build/Products/Debug-iphonesimulator/WangYI.app/WangYI normal i386    cd /Users/gukemanbu/work/ios-samples/WangYI    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator -F/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator -filelist /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/WangYI.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/Objects-normal/i386/WangYI_dependency_info.dat -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/WangYI36"F098F0DA-2091-4939-96EE-AD696BF930B8-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist /Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist
+s427974723.955676
+e427974723.958808
+r1
+xProcessInfoPlistFile
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist
+x/Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Process /Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist104"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist WangYI/WangYI-Info.plistf0c4f4436082b941^d175f5436082b941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist0000000000000000^883"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist WangYI/WangYI-Info.plist    cd /Users/gukemanbu/work/ios-samples/WangYI    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Info.plist -genpkginfo /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/assetcatalog_generated_info.plist -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app/Info.plist36"EBFB6D54-CB07-46D3-B98B-B4649DD84E00-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/WangYI-ekhesogsjyetzrhfgicvnfihlbwi/Index/PrecompiledHeaders/WangYI-Prefix-elqpkylxazufvsgfmtmjurermmoz_ast/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/WangYI-ekhesogsjyetzrhfgicvnfihlbwi/Index/PrecompiledHeaders/WangYI-Prefix-hdfnycaqpdsupiayxqfucejbzyrf_ast/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427974722.447416
+e427974722.519571
+r1
+xProcessPCH
+x/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch
+xWangYI/WangYI-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile WangYI/WangYI-Prefix.pch207"ProcessPCH Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf3cc73426082b941^ac0285426082b941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Prefix.pch0000000000000000^3515"ProcessPCH Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/WangYI    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/WangYI-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/WangYI.build/Debug-iphonesimulator/WangYI.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.d -c /Users/gukemanbu/work/ios-samples/WangYI/WangYI/WangYI-Prefix.pch -o /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-eikuvqrlnuhwttfmuikllcmzokrt/WangYI-Prefix.pch.pch36"B740226A-3327-4787-9936-C4F32B8853F2-
+b4232E758-20A6-409B-8C83-7F9C36EE57D6
+
+CProcessPCH /Users/gukemanbu/work/ios-samples/WangYI/Build/Intermediates/PrecompiledHeaders/WangYI-Prefix-fgdrwcfgloikshgddndaqlxhnwxi/WangYI-Prefix.pch.pch WangYI/WangYI-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/gukemanbu/work/ios-samples/WangYI/Build/Products/Debug-iphonesimulator/WangYI.app
+r0
+

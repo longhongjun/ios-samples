@@ -2,24 +2,24 @@ TDockDemoXib
 v6
 r1
 cCheck dependencies
-cProcessPCH /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386
-cCopyStringsFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings
-cCompileXIB /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.xib
-cCompileXIB /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.xib
-cCompileAssetCatalog /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app /Users/gukemanbu/work/DockDemoXib/DockDemoXib/Images.xcassets
-cCompileXIB /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.xib
-cProcessInfoPlistFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist /Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
-cGenerateDSYMFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
-cTouch /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app
+cProcessPCH /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386
+cCopyStringsFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings
+cCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.xib
+cCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.xib
+cCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.xib
+cCompileAssetCatalog /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/Images.xcassets
+cProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
+cGenerateDSYMFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
+cTouch /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
 c0000000053119F8A0000000000000198
@@ -426,6 +426,201 @@ c0000000051CC75B20000000000002ACF
 t1372353970
 s10959
 
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o
+t1406277604
+s69784
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib.LinkFileList
+c0000000053D217E00000000000000512
+t1406277600
+s1298
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o
+t1406277604
+s57728
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o
+t1406277605
+s574780
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o
+t1406277605
+s83456
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o
+t1406277604
+s40108
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o
+t1406277604
+s40128
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o
+t1406515778
+s45152
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o
+t1406277605
+s3564
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_dependencies.txt
+t1406253035
+s375
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_generated_info.plist
+t1406253035
+s525
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch
+t1406277602
+s122264
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app
+t1406515778
+s374
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM
+t1406277605
+s102
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
+t1406515778
+s382300
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist
+t1406253035
+s991
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/LeftViewController.nib
+t1406253035
+s2118
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/PkgInfo
+t1406253035
+s8
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/RightViewController.nib
+t1406253035
+s2119
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/RootViewController.nib
+t1406253035
+s3176
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings
+t1406253035
+s42
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.h
+c0000000053D1B7EB00000000000001D6
+t1406253035
+s470
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m
+c0000000053D1B7EB0000000000000B78
+t1406253035
+s2936
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
+c0000000053D1B7EB0000000000000491
+t1406253035
+s1169
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch
+c0000000053D1B7EB0000000000000158
+t1406253035
+s344
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/Images.xcassets
+c0000000053D1B7EB0000000000000088
+t1406253035
+s136
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.h
+c0000000053D1B7EB00000000000000DE
+t1406253035
+s222
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m
+c0000000053D1B7EB00000000000002DB
+t1406253035
+s731
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.xib
+c0000000053D1B7EB0000000000000849
+t1406253035
+s2121
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.h
+c0000000053D1B7EB00000000000000E0
+t1406253035
+s224
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m
+c0000000053D1B7EB00000000000002DF
+t1406253035
+s735
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.xib
+c0000000053D1B7EB000000000000084B
+t1406253035
+s2123
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.h
+c0000000053D1B7EB000000000000013D
+t1406253035
+s317
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m
+c0000000053D5BA3F0000000000000438
+t1406515775
+s1080
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.xib
+c0000000053D1B7EB0000000000000F43
+t1406253035
+s3907
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/en.lproj/InfoPlist.strings
+c0000000053D1B7EB000000000000002D
+t1406253035
+s45
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m
+c0000000053D1B7EB0000000000000150
+t1406253035
+s336
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.h
+c0000000053D1B7EB00000000000007B4
+t1406253035
+s1972
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m
+c0000000053D1B7EB00000000000016F3
+t1406253035
+s5875
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+c0000000053D1B7EB0000000000004E68
+t1406253035
+s20072
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m
+c0000000053D1B7EB0000000000024536
+t1406253035
+s148790
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.h
+c0000000053D1B7EB0000000000000868
+t1406253035
+s2152
+
+N/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m
+c0000000053D1B7EB0000000000002ACF
+t1406253035
+s10959
+
 N/usr/lib/libSystem.B.dylib
 c0000000053AFDF01000000000000E6D0
 t1404034817
@@ -580,9 +775,33 @@ r0
 CBuild AST from /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m
 r0
 
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m
+r0
+
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa5663781dc73b941^5ce63881dc73b941^---0#1#1#--18"Check dependencies36"DB0434F0-FE89-42E7-B8B5-EEAC34B056CB-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6d010dc2f185b941^babb22c2f185b941^---0#1#1#--18"Check dependencies36"D79FB4AC-BECA-42FB-AF70-6071EA617ACE-
 
 CCompileAssetCatalog /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app /Users/gukemanbu/work/DockDemoXib/DockDemoXib/Images.xcassets
 s427023390.486196
@@ -598,6 +817,9 @@ o/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-i
 o
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CompileAssetCatalog Build/Products/Debug-iphonesimulator/DockDemoXib.app DockDemoXib/Images.xcassets100"CompileAssetCatalog Build/Products/Debug-iphonesimulator/DockDemoXib.app DockDemoXib/Images.xcassets249a7c1edc73b941^9cbf2122dc73b941^-403"/* com.apple.actool.compilation-results *//Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/LaunchImage-700-568h@2x.png/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Assets.car/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@69"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/Images.xcassets/0000000000000000^1145"CompileAssetCatalog Build/Products/Debug-iphonesimulator/DockDemoXib.app DockDemoXib/Images.xcassets    cd /Users/gukemanbu/work/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app /Users/gukemanbu/work/DockDemoXib/DockDemoXib/Images.xcassets36"CFAD56C2-B1AF-4B7E-9C0E-6EC74AACEB10-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
+
+CCompileAssetCatalog /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/Images.xcassets
+r0
 
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023382.853551
@@ -619,6 +841,26 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/gukemanbu/work/DockDemoXib/DockDemoXib/AppDelegate.m214"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3ba6da16dc73b941^aa7cff16dc73b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/AppDelegate.m0000000000000000^3697"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.dia -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/AppDelegate.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o36"F169AF21-6745-43B4-A3CB-A6DA1F33A075-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970404.076348
+e427970404.358395
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m214"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraaba13644f82b941^48c15b644f82b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m0000000000000000^3865"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o DockDemoXib/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o36"D08DD9DC-C642-46F8-AE19-E1E9CD19135D-
+bBCC15055-B3A3-4B13-A514-80772130EA79
+
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023382.998571
 e427023383.121398
@@ -637,6 +879,24 @@ d/Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/gukemanbu/work/DockDemoXib/ViewDeck/IISideController.m221"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf9f5ff16dc73b941^98141f17dc73b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/gukemanbu/work/DockDemoXib/ViewDeck/IISideController.m0000000000000000^3721"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.dia -c /Users/gukemanbu/work/DockDemoXib/ViewDeck/IISideController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o36"C4E7F63A-E7F9-419D-B329-8E1B29846FAD-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970404.360430
+e427970404.595906
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m221"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler39635c644f82b941^2eab98644f82b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m0000000000000000^3889"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o ViewDeck/IISideController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IISideController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o36"32B7546A-2EC0-4CF1-A6A8-8887C53FB9FB-
+bBCC15055-B3A3-4B13-A514-80772130EA79
+
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023382.646969
 e427023383.544443
@@ -654,6 +914,23 @@ d/Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.m229"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5ebea516dc73b941^fe618b17dc73b941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.m0000000000000000^3745"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.dia -c /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIViewDeckController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o36"55EC697E-A027-4F28-8B07-B44709A71C7C-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970402.970217
+e427970405.660540
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m229"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2c7df8624f82b941^8f1ca9654f82b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m0000000000000000^3913"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o ViewDeck/IIViewDeckController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o36"FAFCFB2F-3246-4143-92E7-FACC9FA77F7A-
+bBCC15055-B3A3-4B13-A514-80772130EA79
+
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023383.233401
 e427023383.384270
@@ -669,6 +946,22 @@ d/Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m
 d/Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Compile /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m221"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfbe53b17dc73b941^4e606217dc73b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m0000000000000000^3721"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.dia -c /Users/gukemanbu/work/DockDemoXib/ViewDeck/IIWrapController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o36"83C4E0BD-98DA-4A93-94A9-4607D9CD99A6-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
+
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970404.839174
+e427970405.118688
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m221"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf17fd7644f82b941^cf651e654f82b941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m0000000000000000^3889"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o ViewDeck/IIWrapController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIWrapController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o36"AE519649-E459-4587-9B3D-F54A4F9883FE-
+bBCC15055-B3A3-4B13-A514-80772130EA79
 
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023383.122072
@@ -686,6 +979,22 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.m228"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler77651f17dc73b941^63f13b17dc73b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.m0000000000000000^3739"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.dia -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o36"49F6EEF8-41CC-42BC-8510-3B3BC06306D3-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970404.596680
+e427970404.838618
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m228"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler395e99644f82b941^0c21d7644f82b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m0000000000000000^3907"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o DockDemoXib/LeftViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o36"F4F8AC87-A313-4171-BB40-17F4398BFEC0-
+bBCC15055-B3A3-4B13-A514-80772130EA79
+
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023382.645502
 e427023382.853011
@@ -701,6 +1010,22 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m
 d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m230"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf964a516dc73b941^8b6dda16dc73b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m0000000000000000^3745"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.dia -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o36"F96863F7-3D5A-4324-8C4A-01D63BEECAA9-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
+
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970402.968683
+e427970404.074596
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m230"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0516f8624f82b941^e71913644f82b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m0000000000000000^3913"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o DockDemoXib/RightViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o36"27316AAD-B51C-4382-A462-D23FD7CC87DE-
+bBCC15055-B3A3-4B13-A514-80772130EA79
 
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023442.788889
@@ -722,6 +1047,26 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.m228"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere526ca52dc73b941^f59eea52dc73b941^---0#0#1#-19%DVTDocumentLocation2@73"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.m0000000000000000^3739"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.dia -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o36"054E6FDE-2D1C-4198-8030-D5281C7A92E5-
 b839CE83D-311A-4F49-A057-4C440ACE3982
 
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428208578.140025
+e428208578.744516
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m228"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler66f823c2f185b941^029cbec2f185b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m0000000000000000^3907"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o DockDemoXib/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o36"CDC75F16-70CF-4606-83A0-CF9B113C6FD6-
+bD04B0643-78F8-4784-9123-FAE94AAD1C73
+
 CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o /Users/gukemanbu/work/DockDemoXib/DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427023383.385447
 e427023383.458462
@@ -741,6 +1086,26 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.h
 d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RightViewController.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/gukemanbu/work/DockDemoXib/DockDemoXib/main.m200"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2cd6217dc73b941^145f7517dc73b941^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/main.m0000000000000000^3655"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.dia -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/main.m -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o36"CD3487C5-FA34-4CFE-AD8D-0B32266AB37A-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
+
+CCompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970405.119265
+e427970405.209173
+r1
+xCompileC
+xBuild/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/ViewDeck/IIViewDeckController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.h
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m200"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerddb31e654f82b941^8b8d35654f82b941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m0000000000000000^3823"CompileC Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o DockDemoXib/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.dia -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/main.m -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o36"4E63F3C8-C3EC-4F14-8101-6308C8C46B1B-
+bBCC15055-B3A3-4B13-A514-80772130EA79
 
 CCompileXIB /Users/gukemanbu/work/DockDemoXib/DockDemoXib/LeftViewController.xib
 s427023489.237458
@@ -769,6 +1134,15 @@ x/Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.xib
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.xib45"CompileXIB DockDemoXib/RootViewController.xibf04d7b1edc73b941^de04cb21dc73b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.xib0000000000000000^766"CompileXIB DockDemoXib/RootViewController.xib    cd /Users/gukemanbu/work/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/RootViewController.nib /Users/gukemanbu/work/DockDemoXib/DockDemoXib/RootViewController.xib36"F51C3061-373B-4C85-B7B0-7630A2682A3B-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/LeftViewController.xib
+r0
+
+CCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RightViewController.xib
+r0
+
+CCompileXIB /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/RootViewController.xib
+r0
+
 CCopyStringsFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings
 s427023383.731615
 e427023383.734381
@@ -779,6 +1153,9 @@ xDockDemoXib/en.lproj/InfoPlist.strings
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy DockDemoXib/en.lproj/InfoPlist.strings134"CopyStringsFile Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings4162bb17dc73b941^1d01bc17dc73b941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/en.lproj/InfoPlist.strings0000000000000000^599"CopyStringsFile Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings    cd /Users/gukemanbu/work/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj -- DockDemoXib/en.lproj/InfoPlist.strings36"5767699E-B0AE-4CA7-B162-F9C0B924EA71-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CCopyStringsFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/en.lproj/InfoPlist.strings DockDemoXib/en.lproj/InfoPlist.strings
+r0
+
 CGenerateDSYMFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
 s427023442.996484
 e427023443.052006
@@ -788,6 +1165,16 @@ x/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemo
 x/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Generate /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM139"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib342bff52dc73b941^b5510d53dc73b941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM/0000000000000000^670"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib    cd /Users/gukemanbu/work/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib -o /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM36"B8D8DD48-2BB3-4CF1-953F-5C8253695A4C-
 b839CE83D-311A-4F49-A057-4C440ACE3982
+
+CGenerateDSYMFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
+s428208578.884840
+e428208578.955726
+r1
+xGenerateDSYMFile
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Generate /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM139"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib1897e2c2f185b941^5cacf4c2f185b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM/0000000000000000^706"GenerateDSYMFile Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app.dSYM36"62EF04E7-41CC-4BA4-BB69-CF6BFDB23CB8-
+bD04B0643-78F8-4784-9123-FAE94AAD1C73
 
 CLd /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386
 s427023442.919230
@@ -873,6 +1260,90 @@ d/usr/lib/system/libunwind.dylib
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib79"Ld Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386be68eb52dc73b941^6c3efe52dc73b941^---0#0#1#--1399"Ld Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386    cd /Users/gukemanbu/work/DockDemoXib    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator -filelist /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib_dependency_info.dat -o /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib36"FD07D11E-8CB0-41F1-A299-3F41A1021F5D-
 b839CE83D-311A-4F49-A057-4C440ACE3982
 
+CLd /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386
+s428208578.747857
+e428208578.881890
+r1
+xLd
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib
+xnormal
+xi386
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RightViewController.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIViewDeckController.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/AppDelegate.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IISideController.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/LeftViewController.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/IIWrapController.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/main.o
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/RootViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Link /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib79"Ld Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386a988bfc2f185b941^ebc4e1c2f185b941^---0#0#1#--1471"Ld Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib normal i386    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator -filelist /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/Objects-normal/i386/DockDemoXib_dependency_info.dat -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/DockDemoXib36"7594A3AD-BACA-4079-91CA-066D40C4B726-
+bD04B0643-78F8-4784-9123-FAE94AAD1C73
+
 CProcessInfoPlistFile /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist /Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
 s427023394.132867
 e427023394.136000
@@ -882,6 +1353,12 @@ x/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemo
 x/Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Process /Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist119"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist DockDemoXib/DockDemoXib-Info.pliste71a2222dc73b941^0bd42222dc73b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist0000000000000000^893"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist DockDemoXib/DockDemoXib-Info.plist    cd /Users/gukemanbu/work/DockDemoXib    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist -genpkginfo /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/assetcatalog_generated_info.plist -o /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist36"13179B2A-61B8-43E7-9D7D-6CD2ACC654EF-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
+
+CProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app/Info.plist /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Info.plist
+r0
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/DockDemoXib-eajolzvjkqwmuocidglcqpxnbwhe/Index/PrecompiledHeaders/DockDemoXib-Prefix-csmhxexaasnckufrpgpswixfllzp_ast/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
 
 CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/DockDemoXib-ekfhguykjbuzthcgenkozsntxwpo/Index/PrecompiledHeaders/DockDemoXib-Prefix-aucqnfnrrcigkpaabkdrldtdztot_ast/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
@@ -901,6 +1378,24 @@ d/Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile DockDemoXib/DockDemoXib-Prefix.pch227"ProcessPCH Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7fa56316dc73b941^e4f9a416dc73b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch0000000000000000^3575"ProcessPCH Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.d -c /Users/gukemanbu/work/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch -o /Users/gukemanbu/work/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-dyoxpbeklyrhfigftpykgfdtxgtv/DockDemoXib-Prefix.pch.pch36"7DF5A3FB-A28C-4316-A6CA-B8B5D8C5C3D5-
 bCC19132A-C7D3-4536-8963-811DFF82C0EE
 
+CProcessPCH /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427970400.066379
+e427970402.967564
+r1
+xProcessPCH
+x/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch
+xDockDemoXib/DockDemoXib-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile DockDemoXib/DockDemoXib-Prefix.pch227"ProcessPCH Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler371911604f82b941^a2b4f7624f82b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch0000000000000000^3731"ProcessPCH Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch DockDemoXib/DockDemoXib-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/DockDemoXib    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DockDemoXib-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/DockDemoXib.build/Debug-iphonesimulator/DockDemoXib.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.d -c /Users/gukemanbu/work/ios-samples/DockDemoXib/DockDemoXib/DockDemoXib-Prefix.pch -o /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Intermediates/PrecompiledHeaders/DockDemoXib-Prefix-afblelysogdgwpfvinumfmzbwmzy/DockDemoXib-Prefix.pch.pch36"A5029412-71A0-4D80-A8A1-8AD93412C15F-
+bBCC15055-B3A3-4B13-A514-80772130EA79
+
 CTouch /Users/gukemanbu/work/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app
+r0
+
+CTouch /Users/gukemanbu/work/ios-samples/DockDemoXib/Build/Products/Debug-iphonesimulator/DockDemoXib.app
 r0
 

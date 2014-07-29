@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E943388-91A7-433B-9B4C-95258F522B5D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WangYI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C8A8CF7C-1D85-4B2F-AD0F-8569E1B82E4E</key>
+		<string>https://github.com/gukemanbu/ios-samples.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WangYI/WangYI.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C8A8CF7C-1D85-4B2F-AD0F-8569E1B82E4E</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gukemanbu/ios-samples.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C8A8CF7C-1D85-4B2F-AD0F-8569E1B82E4E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C8A8CF7C-1D85-4B2F-AD0F-8569E1B82E4E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-samples</string>
+		</dict>
+	</array>
+</dict>
+</plist>
