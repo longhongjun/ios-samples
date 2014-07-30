@@ -69,9 +69,18 @@
 -(void) initTitleBar {
     // 添加横向滚动面板，存放标题用
     _titleScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 60, 280, 30)];
+    [_titleScrollView setContentSize:CGSizeMake(560, 30)];
+    _titleScrollView.showsHorizontalScrollIndicator = NO;
+    //titleScrollView.scrollEnabled = YES;
 
+    // 记录下title长度
+    NSInteger titleLength = 0;
     for (int i=0; i<_titleArray.count; i++) {
-        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(i * 50, 0, 36, 28)];
+        NSString *title = [_titleArray objectAtIndex:i];
+        NSInteger titleWidth = title.length * 18;
+        
+        UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(titleLength, 0, titleWidth + 14, 28)];
+        button.titleLabel.textAlignment = NSTextAlignmentCenter;
         [button setTitle:[_titleArray objectAtIndex:i] forState:UIControlStateNormal];
         [button.titleLabel setFont:[UIFont fontWithName:@"Arial" size:18.0f]];
         [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
@@ -83,21 +92,33 @@
         [button release];
         
         // 按钮下面的红线
-        UIButton *buttonLine = [[UIButton alloc] initWithFrame:CGRectMake(i * 50, 28, 50, 2)];
+        UIButton *buttonLine = [[UIButton alloc] initWithFrame:CGRectMake(titleLength, 28, titleWidth + 14, 2)];
         [buttonLine setTag:(i + 100) * 2];
         [_titleScrollView addSubview:buttonLine];
         [buttonLine release];
+        
+        titleLength += titleWidth + 14;
     }
     
     [self.view addSubview:_titleScrollView];
 }
 
 -(void) switchTitle:(id)sender {
-    UIButton *button = (UIButton*)sender;
-    button.selected = !button.selected;
-    [[_titleScrollView viewWithTag:button.tag * 2] setBackgroundColor:[UIColor redColor]];
+    for (int i=0; i<_titleArray.count; i++) {
+        [((UIButton*)[self.view viewWithTag:100 + i]) setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [((UIButton*)[self.view viewWithTag:(i+100) * 2]) setBackgroundColor:[UIColor whiteColor]];
+    }
     
-    NSLog(@"%d", ((UIButton*)sender).tag);
+    UIButton *button = (UIButton*)sender;
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [[self.view viewWithTag:button.tag * 2] setBackgroundColor:[UIColor redColor]];
+    
+    // 此按钮居中显示
+    if (button.center.x > 140 && button.center.x < 560) {
+        [UIView animateWithDuration:0.2 animations:^{
+            [_titleScrollView setContentOffset:CGPointMake(button.center.x - 150, 0)];
+        }];
+    }
 }
 
 // 显示左边侧滑栏
