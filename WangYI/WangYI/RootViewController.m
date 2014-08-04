@@ -34,6 +34,9 @@
     
     // 初始化标题栏（二级菜单）
     [self initTitleBar];
+    
+    // 标题右边的下拉按钮
+    [self addDropdownButton];
 }
 
 - (void)didReceiveMemoryWarning
@@ -44,14 +47,14 @@
 
 -(void) initHeaderBar {
     // 添加标题
-    UIImageView *titleImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"midTitleNight332_56.jpg"]];
+    UIImageView *titleImage = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"midTitle334_56.jpg"]];
     [titleImage setFrame:CGRectMake(40, 20, 240, 40)];
     [self.view addSubview:titleImage];
     [titleImage release];
     
     // 添加左边菜单按钮
     UIButton *leftButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 20, 40, 40)];
-    [leftButton setBackgroundImage:[UIImage imageNamed:@"leftTitleUpNitht70_70.jpg"] forState:UIControlStateNormal];
+    [leftButton setBackgroundImage:[UIImage imageNamed:@"leftTitleUp70_70.jpg"] forState:UIControlStateNormal];
     //[leftButton setBackgroundImage:[UIImage imageNamed:@"leftTitleUp70_70.jpg"] forState:UIControlStateSelected];
     [leftButton addTarget:self action:@selector(showLeftSliderBar:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:leftButton];
@@ -59,7 +62,7 @@
     
     // 添加右边用户按钮
     UIButton *rightButton = [[UIButton alloc] initWithFrame:CGRectMake(280, 20, 40, 40)];
-    [rightButton setBackgroundImage:[UIImage imageNamed:@"rightTitleUpNight70_70.jpg"] forState:UIControlStateNormal];
+    [rightButton setBackgroundImage:[UIImage imageNamed:@"rightTitleUp70_70.jpg"] forState:UIControlStateNormal];
     //[rightButton setBackgroundImage:[UIImage imageNamed:@"rightTitleUp70_70.jpg"] forState:UIControlStateSelected];
     [leftButton addTarget:self action:@selector(showRightSliderBar:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:rightButton];
@@ -75,6 +78,7 @@
 
     // 记录下title长度
     NSInteger titleLength = 0;
+    // 添加标题
     for (int i=0; i<_titleArray.count; i++) {
         NSString *title = [_titleArray objectAtIndex:i];
         NSInteger titleWidth = title.length * 18;
@@ -116,9 +120,17 @@
     // 此按钮居中显示
     if (button.center.x > 140 && button.center.x < 560) {
         [UIView animateWithDuration:0.2 animations:^{
-            [_titleScrollView setContentOffset:CGPointMake(button.center.x - 150, 0)];
+            [_titleScrollView setContentOffset:CGPointMake(button.center.x - 140, 0)];
         }];
     }
+}
+
+-(void) addDropdownButton {
+    UIButton *btnDropdown = [[UIButton alloc] initWithFrame:CGRectMake(280, 60, 40, 30)];
+    [btnDropdown setBackgroundImage:[UIImage imageNamed:@"secondDayDown65_65.jpg"] forState:UIControlStateNormal];
+    [self.view addSubview:btnDropdown];
+    
+    [btnDropdown release];
 }
 
 // 显示左边侧滑栏

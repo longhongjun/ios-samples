@@ -8,7 +8,9 @@
 
 #import "RootViewController.h"
 
-@interface RootViewController ()
+@interface RootViewController () {
+    UITableViewCellEditingStyle currentEditingStyle;
+}
 
 @end
 
@@ -41,6 +43,19 @@
     // 设置标题栏
     self.title = @"搜索与刷新";
     self.navigationController.navigationBar.barTintColor = [UIColor redColor];
+    
+    // 添加 删除按钮
+    UIBarButtonItem *btnAdd = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonClicked)];
+    UIBarButtonItem *btnDelete = [[UIBarButtonItem alloc] initWithTitle:@"删除" style:UIBarButtonItemStyleBordered target:self action:@selector(deleteButtonClicked)];
+    NSArray *leftButtons = [NSArray arrayWithObjects:btnAdd, btnDelete, nil];
+    [btnAdd release];
+    [btnDelete release];
+    self.navigationItem.leftBarButtonItems = leftButtons;
+    
+    // 右边编辑按钮
+    UIBarButtonItem *btnEdit = [[UIBarButtonItem alloc] initWithTitle:@"编辑" style:UIBarButtonItemStyleBordered target:self action:@selector(editButtonClicked)];
+    self.navigationItem.rightBarButtonItem = btnEdit;
+    [btnEdit release];
     
     // 添加下拉刷新控件
     UIRefreshControl *refreshControl = [[UIRefreshControl alloc] init];
@@ -90,6 +105,7 @@
     return cell;
 }
 
+// 下拉刷新
 -(void) pullToRefresh {
     NSAttributedString *msg1 = [[NSAttributedString alloc] initWithString:@"刷新中"];
     self.refreshControl.attributedTitle = msg1;
@@ -113,6 +129,7 @@
     });
 }
 
+// 加载更多
 -(void) loadMore {
     _btnLoadMore.enabled = NO;
     [SVProgressHUD showWithStatus:@"加载中..."];
@@ -154,6 +171,139 @@
     [searchBar resignFirstResponder];
 }
 
+// 当前编辑模式
+-(UITableViewCellEditingStyle) tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return currentEditingStyle;
+}
+
+// 行选择事件
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self updateBarButtons];
+}
+
+// 添加或删除事件
+-(void) tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [self.displayList removeObjectAtIndex:indexPath.row];
+        [self.dataList removeObjectAtIndex:indexPath.row];
+        [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        [self.displayList insertObject:@"new Row" atIndex:indexPath.row];
+        [self.dataList insertObject:@"new Row" atIndex:indexPath.row];
+        [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    }
+}
+
+// 是否支持编辑
+-(BOOL) tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+// 是否支持行移动
+-(BOOL) tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+// 移动行
+-(void) tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath {
+    id row = [self.displayList objectAtIndex:sourceIndexPath.row];
+    [self.displayList removeObjectAtIndex:sourceIndexPath.row];
+    [self.displayList insertObject:row atIndex:destinationIndexPath.row];
+    
+    [self.dataList removeObjectAtIndex:sourceIndexPath.row];
+    [self.dataList insertObject:row atIndex:destinationIndexPath.row];
+    
+    [row release];
+}
+
+// 添加按钮action
+-(void) addButtonClicked {
+    currentEditingStyle = UITableViewCellEditingStyleInsert;
+    [self.tableView setEditing:YES animated:YES];
+    [self updateBarButtons];
+}
+
+// 删除按钮action
+-(void) deleteButtonClicked {
+    currentEditingStyle = UITableViewCellEditingStyleDelete;
+    [self.tableView setEditing:YES animated:YES];
+    [self updateBarButtons];
+}
+
+// 编辑按钮action
+-(void) editButtonClicked {
+    [self.tableView setAllowsMultipleSelectionDuringEditing:YES];
+    [self.tableView setEditing:YES animated:YES];
+    [self updateBarButtons];
+}
+
+// done按钮action
+-(void) doneButtonClicked {
+    [self.tableView setEditing:NO animated:YES];
+    [self updateBarButtons];
+}
+
+// 取消按钮action
+-(void) cancelButtonClicked {
+    [self.tableView setAllowsMultipleSelectionDuringEditing:NO];
+    [self.tableView setEditing:NO animated:YES];
+    [self updateBarButtons];
+}
+
+-(void) updateBarButtons {
+    if (self.tableView.allowsMultipleSelectionDuringEditing == YES) {
+        NSArray *selectedRows = [self.tableView indexPathsForSelectedRows];
+        
+        UIBarButtonItem *btnDelete = [[UIBarButtonItem alloc] initWithTitle:@"删除全部" style:UIBarButtonItemStyleBordered target:self action:@selector(deleteMutipleRows)];
+        if (selectedRows.count > 0 && selectedRows.count < self.displayList.count) {
+            [btnDelete setTitle:[NSString stringWithFormat:@"删除（%d）", selectedRows.count]];
+        }
+        
+        self.navigationItem.leftBarButtonItems = nil;
+        self.navigationItem.leftBarButtonItem = btnDelete;
+        
+        UIBarButtonItem *btnCancel = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStyleBordered target:self action:@selector(cancelButtonClicked)];
+        self.navigationItem.rightBarButtonItem = btnCancel;
+        return;
+    }
+    
+    if ([self.tableView isEditing]) {
+        UIBarButtonItem *btnDone = [[UIBarButtonItem alloc] initWithTitle:@"done" style:UIBarButtonItemStyleBordered target:self action:@selector(doneButtonClicked)];
+        self.navigationItem.rightBarButtonItem = btnDone;
+        [btnDone release];
+    } else {
+        UIBarButtonItem *btnAdd = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addButtonClicked)];
+        UIBarButtonItem *btnDelete = [[UIBarButtonItem alloc] initWithTitle:@"删除" style:UIBarButtonItemStyleBordered target:self action:@selector(deleteButtonClicked)];
+        NSArray *leftButtons = [NSArray arrayWithObjects:btnAdd, btnDelete, nil];
+        [btnAdd release];
+        [btnDelete release];
+        self.navigationItem.leftBarButtonItems = leftButtons;
+        
+        UIBarButtonItem *btnEdit = [[UIBarButtonItem alloc] initWithTitle:@"编辑" style:UIBarButtonItemStyleBordered target:self action:@selector(editButtonClicked)];
+        self.navigationItem.rightBarButtonItem = btnEdit;
+        [btnEdit release];
+    }
+}
+
+// 删除多行
+-(void) deleteMutipleRows {
+    NSArray *selectedRows = [self.tableView indexPathsForSelectedRows];
+    if (selectedRows.count > 0 && selectedRows.count < self.displayList.count) {
+        for (NSIndexPath *row in selectedRows) {
+            [self.displayList removeObjectAtIndex:row.row];
+            [self.dataList removeObjectAtIndex:row.row];
+        }
+        
+        [self.tableView deleteRowsAtIndexPaths:selectedRows withRowAnimation:UITableViewRowAnimationAutomatic];
+    } else {
+        [self.displayList removeAllObjects];
+        [self.dataList removeAllObjects];
+        
+        [self.tableView reloadData];
+    }
+    
+    [self updateBarButtons];
+}
 /*
  #pragma mark - Navigation
  
