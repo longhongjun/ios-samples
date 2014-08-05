@@ -1,0 +1,445 @@
+TFreeMusic
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch FreeMusic/FreeMusic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic normal i386
+cCpResource Images/1136.png Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png
+cCpResource Images/960.png Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png
+cCopyStringsFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings FreeMusic/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets
+cProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist
+cGenerateDSYMFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic
+cTouch /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053AFE92600000000000003B4
+t1404037414
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053AFE934000000000000019E
+t1404037428
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053AFE9390000000000446820
+t1404037433
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053AFE93C000000000088D8C0
+t1404037436
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053AFE9450000000001F1DE10
+t1404037445
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053AFE9A90000000000000ADC
+t1404037545
+s2780
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o
+t1407221260
+s63948
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/FreeMusic.LinkFileList
+c0000000053E07E0C000000000000030A
+t1407221260
+s778
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o
+t1407221260
+s40160
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o
+t1407221260
+s40096
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o
+t1407221260
+s40116
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o
+t1407221260
+s3556
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_dependencies.txt
+t1407221262
+s516
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_generated_info.plist
+t1407221262
+s811
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch
+t1407221260
+s122144
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app
+t1407221262
+s374
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM
+t2
+s0
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png
+t1407221261
+s12231
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png
+t1407221261
+s11707
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic
+t1407221261
+s23488
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist
+t1407221262
+s1047
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/PkgInfo
+t1407221262
+s8
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings
+t1407221261
+s42
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m
+c0000000053E07130000000000000087C
+t1407217968
+s2172
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist
+c0000000053E071300000000000000491
+t1407217968
+s1169
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Prefix.pch
+c0000000053E071300000000000000158
+t1407217968
+s344
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets
+c0000000053E07E060000000000000088
+t1407221254
+s136
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m
+c0000000053E07BBD0000000000000431
+t1407220669
+s1073
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m
+c0000000053E07B810000000000000425
+t1407220609
+s1061
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m
+c0000000053E07BD10000000000000429
+t1407220689
+s1065
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/en.lproj/InfoPlist.strings
+c0000000053E07130000000000000002D
+t1407217968
+s45
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m
+c0000000053E07130000000000000014D
+t1407217968
+s333
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Images/1136.png
+c00000000538831560000000000002FC7
+t1401434454
+s12231
+
+N/Users/gukemanbu/work/ios-samples/FreeMusic/Images/960.png
+c00000000538831540000000000002DBB
+t1401434452
+s11707
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies0f60998cb590b941^8aafa68cb590b941^---0#1#1#--18"Check dependencies36"F5B2204C-F7D2-4D7C-8014-A8ED7C272C6B-
+
+CCompileAssetCatalog /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets
+s428914061.017074
+e428914062.338729
+r1
+xCompileAssetCatalog
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/LaunchImage-700@2x.png
+o/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/LaunchImage-700-568h@2x.png
+o/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Assets.car
+o/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/FreeMusic.app FreeMusic/Images.xcassets96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/FreeMusic.app FreeMusic/Images.xcassetsf376048db590b941^78b7568eb590b941^-543"/* com.apple.actool.compilation-results *//Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/LaunchImage-700@2x.png/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/LaunchImage-700-568h@2x.png/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Assets.car/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@77"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets/0000000000000000^1179"CompileAssetCatalog Build/Products/Debug-iphonesimulator/FreeMusic.app FreeMusic/Images.xcassets    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/Images.xcassets36"BD1E2136-697A-4920-B354-4C16675CED3B-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.733549
+e428914060.840614
+r1
+xCompileC
+xBuild/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m208"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o FreeMusic/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ce6bb8cb590b941^103bd78cb590b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m0000000000000000^3781"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o FreeMusic/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.dia -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.m -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o36"C1C060B6-705F-43E8-9A3D-5DB5780782AA-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.732589
+e428914060.825822
+r1
+xCompileC
+xBuild/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m228"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o FreeMusic/MyMusicViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera5bbbb8cb590b941^9869d38cb590b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m0000000000000000^3841"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o FreeMusic/MyMusicViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.dia -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/MyMusicViewController.m -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o36"24675334-B423-49E9-9AD7-ED40A4626694-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.879553
+e428914060.963457
+r1
+xCompileC
+xBuild/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m222"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o FreeMusic/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8a57e18cb590b941^7fa6f68cb590b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m0000000000000000^3823"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o FreeMusic/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.dia -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/RootViewController.m -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o36"E5F396BD-F393-4F2D-B3BF-236750CED086-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.841372
+e428914060.931326
+r1
+xCompileC
+xBuild/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m224"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o FreeMusic/TudouViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6f82d78cb590b941^5e83ee8cb590b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m0000000000000000^3829"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o FreeMusic/TudouViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.dia -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/TudouViewController.m -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o36"5C625E0E-0899-438D-868E-4ECCACB3ADD3-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.826724
+e428914060.879010
+r1
+xCompileC
+xBuild/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m194"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o FreeMusic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler84d6d38cb590b941^0a65e18cb590b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m0000000000000000^3739"CompileC Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o FreeMusic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.dia -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/main.m -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o36"07703C01-205A-4FC1-9458-71CFF9338BDC-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCopyStringsFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings FreeMusic/en.lproj/InfoPlist.strings
+s428914061.016575
+e428914061.018852
+r1
+xCopyStringsFile
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings
+xFreeMusic/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy FreeMusic/en.lproj/InfoPlist.strings130"CopyStringsFile Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings FreeMusic/en.lproj/InfoPlist.strings1558048db590b941^aad4048db590b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/en.lproj/InfoPlist.strings0000000000000000^611"CopyStringsFile Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj/InfoPlist.strings FreeMusic/en.lproj/InfoPlist.strings    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/en.lproj -- FreeMusic/en.lproj/InfoPlist.strings36"05EF03B5-3C32-4CF7-B283-2BB5B52B1F89-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCpResource Images/1136.png Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png
+s428914061.013639
+e428914061.016111
+r1
+xCpResource
+xImages/1136.png
+xBuild/Products/Debug-iphonesimulator/FreeMusic.app/1136.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png86"CpResource Images/1136.png Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png9e96038db590b941^fb23048db590b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png00344069dcffdf42^600"CpResource Images/1136.png Build/Products/Debug-iphonesimulator/FreeMusic.app/1136.png    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gukemanbu/work/ios-samples/FreeMusic/Images/1136.png /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app36"7A55114B-7270-4A94-9A83-A8136DDB76E8-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CCpResource Images/960.png Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png
+s428914061.014279
+e428914061.016130
+r1
+xCpResource
+xImages/960.png
+xBuild/Products/Debug-iphonesimulator/FreeMusic.app/960.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png84"CpResource Images/960.png Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png3db8038db590b941^912c048db590b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png00344069dcffdf42^597"CpResource Images/960.png Build/Products/Debug-iphonesimulator/FreeMusic.app/960.png    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gukemanbu/work/ios-samples/FreeMusic/Images/960.png /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app36"EBE4AC31-3FE4-47EC-AB6D-9266327E7455-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CGenerateDSYMFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic
+s428914062.364760
+e428914062.396114
+r1
+xGenerateDSYMFile
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generate /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM133"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic68765d8eb590b941^76df658eb590b941^---0#0#1#-19%DVTDocumentLocation2@106"file:///Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM00344069dcffdf42^688"GenerateDSYMFile Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app.dSYM36"03747B98-DC9B-48BA-8B37-DD1958106172-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CLd /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic normal i386
+s428914060.964631
+e428914061.012501
+r1
+xLd
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic
+xnormal
+xi386
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/FreeMusic.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/MyMusicViewController.o
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/AppDelegate.o
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/main.o
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/TudouViewController.o
+d/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/RootViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic75"Ld Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic normal i386700af78cb590b941^1a35038db590b941^---0#0#1#--1439"Ld Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic normal i386    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator -filelist /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/FreeMusic.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/Objects-normal/i386/FreeMusic_dependency_info.dat -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/FreeMusic36"367D71FC-7750-4A26-8A19-E978C153ED2B-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist
+s428914062.340174
+e428914062.355332
+r1
+xProcessInfoPlistFile
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist
+x/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist113"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist FreeMusic/FreeMusic-Info.plistb131578eb590b941^29075b8eb590b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist0000000000000000^925"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist FreeMusic/FreeMusic-Info.plist    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Info.plist -genpkginfo /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/assetcatalog_generated_info.plist -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app/Info.plist36"F3663ADF-9167-488A-A5BE-48DBD9D66D74-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/FreeMusic-brabvmbxjlurmeftjrxsjhtneoqg/Index/PrecompiledHeaders/FreeMusic-Prefix-gyqmcgsegzdgrvcpmyrepznxpjnm_ast/FreeMusic-Prefix.pch.pch FreeMusic/FreeMusic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch FreeMusic/FreeMusic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428914060.655012
+e428914060.731383
+r1
+xProcessPCH
+x/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch
+xFreeMusic/FreeMusic-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile FreeMusic/FreeMusic-Prefix.pch219"ProcessPCH Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch FreeMusic/FreeMusic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27f7a78cb590b941^8a3ebb8cb590b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Prefix.pch0000000000000000^3649"ProcessPCH Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch FreeMusic/FreeMusic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/FreeMusic    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/FreeMusic-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/FreeMusic.build/Debug-iphonesimulator/FreeMusic.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.d -c /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/FreeMusic-Prefix.pch -o /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Intermediates/PrecompiledHeaders/FreeMusic-Prefix-dydbwxgqhgllrwgtqmkqsfusxlny/FreeMusic-Prefix.pch.pch36"199DC89D-40A9-4D64-B6FF-8EDFD66E835E-
+b92AA341B-A3ED-43AA-B558-5556CC31726A
+
+CTouch /Users/gukemanbu/work/ios-samples/FreeMusic/Build/Products/Debug-iphonesimulator/FreeMusic.app
+r0
+
