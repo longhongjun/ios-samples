@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31084413199373DE00175CD3 /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31084411199373DE00175CD3 /* SongListViewController.m */; };
 		3122EFFC1990A8B00077C857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFB1990A8B00077C857 /* Foundation.framework */; };
 		3122EFFE1990A8B00077C857 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFD1990A8B00077C857 /* CoreGraphics.framework */; };
 		3122F0001990A8B00077C857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFF1990A8B00077C857 /* UIKit.framework */; };
@@ -72,6 +73,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31084410199373DE00175CD3 /* SongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListViewController.h; sourceTree = "<group>"; };
+		31084411199373DE00175CD3 /* SongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListViewController.m; sourceTree = "<group>"; };
 		3122EFF81990A8B00077C857 /* FreeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3122EFFB1990A8B00077C857 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3122EFFD1990A8B00077C857 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -174,15 +177,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		311783F11991BCC6008C120D /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				3176A6A21991BD4700D37CCC /* MyNavigationBar.h */,
-				3176A6A31991BD4700D37CCC /* MyNavigationBar.m */,
-			);
-			name = Common;
-			sourceTree = "<group>";
-		};
 		3122EFEF1990A8B00077C857 = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +213,6 @@
 		3122F0011990A8B00077C857 /* FreeMusic */ = {
 			isa = PBXGroup;
 			children = (
-				311783F11991BCC6008C120D /* Common */,
 				31AC14C319932B5E006150A1 /* Utils */,
 				3176A6C51992270300D37CCC /* Model */,
 				3178130A19936C970040AA29 /* View */,
@@ -318,6 +311,8 @@
 			children = (
 				314876AA1990B30100D0CFCE /* SearchViewController.h */,
 				314876AB1990B30100D0CFCE /* SearchViewController.m */,
+				31084410199373DE00175CD3 /* SongListViewController.h */,
+				31084411199373DE00175CD3 /* SongListViewController.m */,
 				314876AD1990B33D00D0CFCE /* MyMusicViewController.h */,
 				314876AE1990B33D00D0CFCE /* MyMusicViewController.m */,
 				314876B01990B35200D0CFCE /* TudouViewController.h */,
@@ -331,6 +326,8 @@
 		3178130A19936C970040AA29 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3176A6A21991BD4700D37CCC /* MyNavigationBar.h */,
+				3176A6A31991BD4700D37CCC /* MyNavigationBar.m */,
 				3141E84619922F8600CB58A1 /* MyCircleImageView.h */,
 				3141E84719922F8600CB58A1 /* MyCircleImageView.m */,
 				31781306199366930040AA29 /* MyCircleImageView+OnlineImage.h */,
@@ -505,6 +502,7 @@
 				31AC14BE19932958006150A1 /* FMDatabase.m in Sources */,
 				3122F00C1990A8B00077C857 /* AppDelegate.m in Sources */,
 				3122F0081990A8B00077C857 /* main.m in Sources */,
+				31084413199373DE00175CD3 /* SongListViewController.m in Sources */,
 				317812FD1993628D0040AA29 /* NSString+MD5.m in Sources */,
 				314876B21990B35200D0CFCE /* TudouViewController.m in Sources */,
 				31AC14BF19932958006150A1 /* FMDatabaseAdditions.m in Sources */,

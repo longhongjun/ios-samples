@@ -106,10 +106,6 @@
     [searchBar resignFirstResponder];
 }
 
--(void) leftButtonClicked {
-
-}
-
 -(void) rightButtonClicked {
     UIViewController *playViewController = [[PlayViewController alloc] init];
     [self.navigationController pushViewController:playViewController animated:YES];
@@ -139,6 +135,14 @@
     return 70;
 }
 
+-(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    SingerInfo *singerInfo = [self.singerList objectAtIndex:indexPath.row];
+    
+    SongListViewController *songListViewController = [[SongListViewController alloc] init];
+    songListViewController.singer = singerInfo.name;
+    [self.navigationController pushViewController:songListViewController animated:YES];
+    [songListViewController release];
+}
 /*
 #pragma mark - Navigation
 
