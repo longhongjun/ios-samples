@@ -12,6 +12,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // 把自已创建的数据库复制到documents下
+    [self copySqliteDB];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
@@ -50,6 +53,17 @@
     //[self.window addSubview:rootViewController.view];
     [rootViewController release];
     return YES;
+}
+
+-(void)copySqliteDB
+{
+    NSFileManager *fileMgr = [NSFileManager defaultManager];
+    NSString *dbPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"FreeMusic.db"];
+
+    if (![fileMgr fileExistsAtPath:dbPath]) {
+        NSString *srcPath = [[NSBundle mainBundle] pathForResource:@"FreeMusic" ofType:@"db"];
+        [fileMgr copyItemAtPath:srcPath toPath:dbPath error:NULL];
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

@@ -10,7 +10,11 @@
 #import "MyNavigationBar.h"
 #import "PlayViewController.h"
 #import "MyTableViewCell.h"
+#import "FMDB.h"
+#import "SingerInfo.h"
 
 @interface SearchViewController : UIViewController<UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+
+@property (nonatomic, strong) NSMutableArray *singerList;
 
 @end

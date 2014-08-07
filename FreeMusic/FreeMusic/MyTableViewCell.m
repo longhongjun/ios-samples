@@ -17,7 +17,7 @@
 
 @implementation MyTableViewCell
 
-@synthesize photo = _photo;
+@synthesize photoUrl = _photoUrl;
 @synthesize singerName = _singerName;
 @synthesize singerCompany = _singerCompany;
 
@@ -34,14 +34,15 @@
         [_photoView release];
         
         // 主标题（歌手名）
-        _lblSingerName = [[UILabel alloc] initWithFrame:CGRectMake(70, 10, 200, 30)];
+        _lblSingerName = [[UILabel alloc] initWithFrame:CGRectMake(70, 8, 200, 30)];
         _lblSingerName.font = [UIFont systemFontOfSize:16.0f];
         [self addSubview:_lblSingerName];
         
         // 副标题
-        _lblSingerCompany = [[UILabel alloc] initWithFrame:CGRectMake(70, 25, 200, 30)];
+        _lblSingerCompany = [[UILabel alloc] initWithFrame:CGRectMake(70, 35, 200, 30)];
         _lblSingerCompany.font = [UIFont systemFontOfSize:13.0f];
         _lblSingerCompany.textColor = [UIColor lightGrayColor];
+        
         [self addSubview:_lblSingerCompany];
     }
     return self;
@@ -52,18 +53,32 @@
     // Initialization code
 }
 
--(void) setPhoto:(UIImage *)photo {
-    _photo = photo;
-    _photoView.image = photo;
+-(void) setPhotoUrl:(NSString *)photoUrl {
+    if ([photoUrl isEqualToString:_photoUrl]) {
+        return;
+    }
+    [_photoUrl release];
+    _photoUrl = [photoUrl retain];
+    
+    [_photoView setOnlineImage:photoUrl];
 }
 
 -(void) setSingerName:(NSString *)singerName {
-    _singerName = singerName;
+    if ([singerName isEqualToString: _singerName]) {
+        return;
+    }
+    [_singerName release];
+    _singerName = [singerName retain];
     _lblSingerName.text = singerName;
 }
 
 -(void) setSingerCompany:(NSString *)singerCompany {
-    _singerCompany = singerCompany;
+    if ([singerCompany isEqualToString:_singerCompany]) {
+        return;
+    }
+    
+    [_singerCompany release];
+    _singerCompany = [singerCompany retain];
     _lblSingerCompany.text = singerCompany;
 }
 
@@ -78,6 +93,9 @@
     [_photoView release];
     [_lblSingerName release];
     [_lblSingerCompany release];
+    [_photoUrl release];
+    [_singerName release];
+    [_singerCompany release];
     
     [super dealloc];
 }

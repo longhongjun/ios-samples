@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MyCircleImageView.h"
+#import "MyCircleImageView+OnlineImage.h"
 
 @interface MyTableViewCell : UITableViewCell
 
-@property (nonatomic, strong) UIImage *photo;
+@property (nonatomic, assign) NSString *photoUrl;
 @property (nonatomic, assign) NSString *singerName;
 @property (nonatomic, assign) NSString *singerCompany;
 

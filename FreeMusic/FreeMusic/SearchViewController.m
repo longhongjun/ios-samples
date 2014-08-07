@@ -14,6 +14,8 @@
 
 @implementation SearchViewController
 
+@synthesize singerList;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -50,6 +52,43 @@
     tableView.dataSource = self;
     [self.view addSubview:tableView];
     [tableView release];
+    
+    // 从FreeMusic.db里读取歌手信息
+    [self initSingerList];
+}
+
+-(void) initSingerList {
+    self.singerList = [NSMutableArray arrayWithCapacity:100];
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentDirectory = [paths objectAtIndex:0];
+    NSString *dbPath = [documentDirectory stringByAppendingPathComponent:@"FreeMusic.db"];
+    FMDatabase *db = [FMDatabase databaseWithPath:dbPath] ;
+    if (![db open]) {
+        [db release];
+        NSLog(@"打开数据库失败。");
+        return ;
+    }
+    
+    FMResultSet *resultSet = [db executeQuery:@"select * from FMSongerInfor"];
+    int i = 0;
+    while ([resultSet next]) {
+        if (i > 100) {
+            break;
+        }
+
+        SingerInfo *singer = [[SingerInfo alloc] init];
+        singer.name = [resultSet stringForColumn:@"name"];
+        singer.company = [resultSet stringForColumn:@"company"];
+        singer.photoUrl = [resultSet stringForColumn:@"avatar_small"];
+        [singerList addObject:singer];
+        [singer release];
+        
+        i++;
+    }
+    
+    // 关闭数据库
+    [db close];
 }
 
 - (void)didReceiveMemoryWarning
@@ -74,12 +113,11 @@
 -(void) rightButtonClicked {
     UIViewController *playViewController = [[PlayViewController alloc] init];
     [self.navigationController pushViewController:playViewController animated:YES];
-    //[self presentViewController:playViewController animated:YES completion:^{}];
     [playViewController release];
 }
 
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 10;
+    return self.singerList.count;
 }
 
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -89,11 +127,16 @@
         cell = [[[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
     }
     
-    cell.photo = [UIImage imageNamed:@"photo.jpg"];
-    cell.singerName = @"范伟琪";
-    cell.singerCompany = @"滚石唱片公司";
-    
+    SingerInfo *singer = [singerList objectAtIndex:indexPath.row];
+    cell.photoUrl = singer.photoUrl;
+    cell.singerName = singer.name;
+    cell.singerCompany = singer.company;
+
     return cell;
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 70;
 }
 
 /*
