@@ -47,6 +47,7 @@
     [tudouNaviController release];
     
     self.window.rootViewController = rootViewController;
+    //[self.window addSubview:rootViewController.view];
     [rootViewController release];
     return YES;
 }

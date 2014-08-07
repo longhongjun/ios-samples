@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyNavigationBar.h"
 #import "PlayViewController.h"
+#import "MyTableViewCell.h"
 
 @interface SearchViewController : UIViewController<UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
 

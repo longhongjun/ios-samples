@@ -26,16 +26,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // 隐藏系统导航栏
+    [self.navigationController setNavigationBarHidden:YES];
     
-    // 标题
-    self.title = @"搜索";
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:192.0f/255.0f green:37.0f/255.0f blue:62.0f/255.0f alpha:1.0f];
-    
-    // 右边按钮
-    UIBarButtonItem *btnRight = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"nav_music"] style:UIBarButtonItemStyleBordered target:self action:@selector(showPlayView)];
-    self.navigationItem.rightBarButtonItem = btnRight;
-    [btnRight release];
+    // 添加自定义导航栏
+    MyNavigationBar *myNavigationBar = [[MyNavigationBar alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
+    myNavigationBar.title = @"Free Music";
+    myNavigationBar.rightImage = [UIImage imageNamed:@"nav_music"];
+    myNavigationBar.delegate = (id)self;
+    [self.view addSubview:myNavigationBar];
+    [myNavigationBar release];
     
     // 搜索框
     UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 64, 320, 30)];
@@ -67,10 +67,14 @@
     [searchBar resignFirstResponder];
 }
 
--(void) showPlayView {
-    self.navigationItem.hidesBackButton = YES;
+-(void) leftButtonClicked {
+
+}
+
+-(void) rightButtonClicked {
     UIViewController *playViewController = [[PlayViewController alloc] init];
     [self.navigationController pushViewController:playViewController animated:YES];
+    //[self presentViewController:playViewController animated:YES completion:^{}];
     [playViewController release];
 }
 
@@ -80,12 +84,14 @@
 
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"ReuseCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
     }
     
-    cell.textLabel.text = @"aaa";
+    cell.photo = [UIImage imageNamed:@"photo.jpg"];
+    cell.singerName = @"范伟琪";
+    cell.singerCompany = @"滚石唱片公司";
     
     return cell;
 }
