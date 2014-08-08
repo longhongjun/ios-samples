@@ -13,5 +13,6 @@
 @property (nonatomic, retain) NSString *photoUrl;
 @property (nonatomic, retain) NSString *name;
 @property (nonatomic, retain) NSString *company;
+@property (nonatomic, assign) NSInteger tingUid;
 
 @end

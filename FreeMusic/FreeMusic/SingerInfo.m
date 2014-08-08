@@ -13,5 +13,6 @@
 @synthesize photoUrl = _photoUrl;
 @synthesize name = _name;
 @synthesize company = _company;
+@synthesize tingUid = _tingUid;
 
 @end

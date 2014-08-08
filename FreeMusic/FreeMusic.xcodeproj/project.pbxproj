@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		31084413199373DE00175CD3 /* SongListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31084411199373DE00175CD3 /* SongListViewController.m */; };
+		311A055A1994751E007EB287 /* SongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 311A05591994751E007EB287 /* SongTableViewCell.m */; };
 		3122EFFC1990A8B00077C857 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFB1990A8B00077C857 /* Foundation.framework */; };
 		3122EFFE1990A8B00077C857 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFD1990A8B00077C857 /* CoreGraphics.framework */; };
 		3122F0001990A8B00077C857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFF1990A8B00077C857 /* UIKit.framework */; };
@@ -20,13 +21,14 @@
 		3122F0171990A8B00077C857 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3122EFFF1990A8B00077C857 /* UIKit.framework */; };
 		3122F01F1990A8B00077C857 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3122F01D1990A8B00077C857 /* InfoPlist.strings */; };
 		3122F0211990A8B00077C857 /* FreeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3122F0201990A8B00077C857 /* FreeMusicTests.m */; };
-		3141E8451992278E00CB58A1 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3141E8441992278E00CB58A1 /* MyTableViewCell.m */; };
+		3141E8451992278E00CB58A1 /* SingerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3141E8441992278E00CB58A1 /* SingerTableViewCell.m */; };
 		3141E84819922F8600CB58A1 /* MyCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3141E84719922F8600CB58A1 /* MyCircleImageView.m */; };
 		314876AC1990B30100D0CFCE /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314876AB1990B30100D0CFCE /* SearchViewController.m */; };
 		314876AF1990B33D00D0CFCE /* MyMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314876AE1990B33D00D0CFCE /* MyMusicViewController.m */; };
 		314876B21990B35200D0CFCE /* TudouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314876B11990B35200D0CFCE /* TudouViewController.m */; };
 		314876B71990B53000D0CFCE /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 314876B51990B53000D0CFCE /* 1136.png */; };
 		314876B81990B53000D0CFCE /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 314876B61990B53000D0CFCE /* 960.png */; };
+		3168AB46199476170096570B /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3168AB45199476170096570B /* SongInfo.m */; };
 		3176A6A41991BD4700D37CCC /* MyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3176A6A31991BD4700D37CCC /* MyNavigationBar.m */; };
 		3176A6A61991FA5000D37CCC /* slider-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3176A6A51991FA5000D37CCC /* slider-thumb.png */; };
 		3176A6AA199206CF00D37CCC /* order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3176A6A7199206CF00D37CCC /* order@2x.png */; };
@@ -75,6 +77,8 @@
 /* Begin PBXFileReference section */
 		31084410199373DE00175CD3 /* SongListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongListViewController.h; sourceTree = "<group>"; };
 		31084411199373DE00175CD3 /* SongListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongListViewController.m; sourceTree = "<group>"; };
+		311A05581994751E007EB287 /* SongTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongTableViewCell.h; sourceTree = "<group>"; };
+		311A05591994751E007EB287 /* SongTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongTableViewCell.m; sourceTree = "<group>"; };
 		3122EFF81990A8B00077C857 /* FreeMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3122EFFB1990A8B00077C857 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3122EFFD1990A8B00077C857 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,8 +95,8 @@
 		3122F01C1990A8B00077C857 /* FreeMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeMusicTests-Info.plist"; sourceTree = "<group>"; };
 		3122F01E1990A8B00077C857 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3122F0201990A8B00077C857 /* FreeMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicTests.m; sourceTree = "<group>"; };
-		3141E8431992278E00CB58A1 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
-		3141E8441992278E00CB58A1 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		3141E8431992278E00CB58A1 /* SingerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingerTableViewCell.h; sourceTree = "<group>"; };
+		3141E8441992278E00CB58A1 /* SingerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingerTableViewCell.m; sourceTree = "<group>"; };
 		3141E84619922F8600CB58A1 /* MyCircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCircleImageView.h; sourceTree = "<group>"; };
 		3141E84719922F8600CB58A1 /* MyCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCircleImageView.m; sourceTree = "<group>"; };
 		314876AA1990B30100D0CFCE /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		314876B11990B35200D0CFCE /* TudouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TudouViewController.m; sourceTree = "<group>"; };
 		314876B51990B53000D0CFCE /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
 		314876B61990B53000D0CFCE /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
+		3168AB44199476170096570B /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
+		3168AB45199476170096570B /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
 		3176A6A21991BD4700D37CCC /* MyNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBar.h; sourceTree = "<group>"; };
 		3176A6A31991BD4700D37CCC /* MyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBar.m; sourceTree = "<group>"; };
 		3176A6A51991FA5000D37CCC /* slider-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-thumb.png"; sourceTree = "<group>"; };
@@ -287,6 +293,8 @@
 			children = (
 				317812ED199350EE0040AA29 /* SingerInfo.h */,
 				317812EE199350EE0040AA29 /* SingerInfo.m */,
+				3168AB44199476170096570B /* SongInfo.h */,
+				3168AB45199476170096570B /* SongInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -332,8 +340,10 @@
 				3141E84719922F8600CB58A1 /* MyCircleImageView.m */,
 				31781306199366930040AA29 /* MyCircleImageView+OnlineImage.h */,
 				31781307199366930040AA29 /* MyCircleImageView+OnlineImage.m */,
-				3141E8431992278E00CB58A1 /* MyTableViewCell.h */,
-				3141E8441992278E00CB58A1 /* MyTableViewCell.m */,
+				3141E8431992278E00CB58A1 /* SingerTableViewCell.h */,
+				3141E8441992278E00CB58A1 /* SingerTableViewCell.m */,
+				311A05581994751E007EB287 /* SongTableViewCell.h */,
+				311A05591994751E007EB287 /* SongTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -506,7 +516,9 @@
 				317812FD1993628D0040AA29 /* NSString+MD5.m in Sources */,
 				314876B21990B35200D0CFCE /* TudouViewController.m in Sources */,
 				31AC14BF19932958006150A1 /* FMDatabaseAdditions.m in Sources */,
-				3141E8451992278E00CB58A1 /* MyTableViewCell.m in Sources */,
+				311A055A1994751E007EB287 /* SongTableViewCell.m in Sources */,
+				3168AB46199476170096570B /* SongInfo.m in Sources */,
+				3141E8451992278E00CB58A1 /* SingerTableViewCell.m in Sources */,
 				317DEE0C1990DF680054D225 /* PlayViewController.m in Sources */,
 				314876AC1990B30100D0CFCE /* SearchViewController.m in Sources */,
 			);

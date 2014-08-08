@@ -14,7 +14,7 @@
 
 @implementation SearchViewController
 
-@synthesize singerList;
+@synthesize singerList = _singerList;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -81,7 +81,8 @@
         singer.name = [resultSet stringForColumn:@"name"];
         singer.company = [resultSet stringForColumn:@"company"];
         singer.photoUrl = [resultSet stringForColumn:@"avatar_small"];
-        [singerList addObject:singer];
+        singer.tingUid = [resultSet intForColumn:@"ting_uid"];
+        [_singerList addObject:singer];
         [singer release];
         
         i++;
@@ -118,12 +119,12 @@
 
 -(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"ReuseCell";
-    MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    SingerTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     if (!cell) {
-        cell = [[[MyTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
+        cell = [[[SingerTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier] autorelease];
     }
     
-    SingerInfo *singer = [singerList objectAtIndex:indexPath.row];
+    SingerInfo *singer = [_singerList objectAtIndex:indexPath.row];
     cell.photoUrl = singer.photoUrl;
     cell.singerName = singer.name;
     cell.singerCompany = singer.company;
@@ -140,8 +141,14 @@
     
     SongListViewController *songListViewController = [[SongListViewController alloc] init];
     songListViewController.singer = singerInfo.name;
+    songListViewController.tingUid = [NSString stringWithFormat:@"%d", singerInfo.tingUid];
     [self.navigationController pushViewController:songListViewController animated:YES];
     [songListViewController release];
+}
+
+-(void) dealloc {
+    [_singerList release];
+    [super dealloc];
 }
 /*
 #pragma mark - Navigation

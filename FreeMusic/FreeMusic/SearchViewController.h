@@ -10,7 +10,7 @@
 #import "MyNavigationBar.h"
 #import "PlayViewController.h"
 #import "SongListViewController.h"
-#import "MyTableViewCell.h"
+#import "SingerTableViewCell.h"
 #import "FMDB.h"
 #import "SingerInfo.h"
 

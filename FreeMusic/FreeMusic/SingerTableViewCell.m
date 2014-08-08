@@ -6,16 +6,16 @@
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 
-#import "MyTableViewCell.h"
+#import "SingerTableViewCell.h"
 
-@interface MyTableViewCell() {
+@interface SingerTableViewCell() {
     UIImageView *_photoView;
     UILabel *_lblSingerName;
     UILabel *_lblSingerCompany;
 }
 @end
 
-@implementation MyTableViewCell
+@implementation SingerTableViewCell
 
 @synthesize photoUrl = _photoUrl;
 @synthesize singerName = _singerName;
