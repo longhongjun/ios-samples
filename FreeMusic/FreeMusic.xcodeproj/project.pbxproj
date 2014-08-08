@@ -28,7 +28,11 @@
 		314876B21990B35200D0CFCE /* TudouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314876B11990B35200D0CFCE /* TudouViewController.m */; };
 		314876B71990B53000D0CFCE /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 314876B51990B53000D0CFCE /* 1136.png */; };
 		314876B81990B53000D0CFCE /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 314876B61990B53000D0CFCE /* 960.png */; };
+<<<<<<< HEAD
 		3168AB46199476170096570B /* SongInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3168AB45199476170096570B /* SongInfo.m */; };
+=======
+		317367AD1993BEEC007EDA43 /* FreeMusic.db in Resources */ = {isa = PBXBuildFile; fileRef = 317367AC1993BEEC007EDA43 /* FreeMusic.db */; };
+>>>>>>> FETCH_HEAD
 		3176A6A41991BD4700D37CCC /* MyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3176A6A31991BD4700D37CCC /* MyNavigationBar.m */; };
 		3176A6A61991FA5000D37CCC /* slider-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3176A6A51991FA5000D37CCC /* slider-thumb.png */; };
 		3176A6AA199206CF00D37CCC /* order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3176A6A7199206CF00D37CCC /* order@2x.png */; };
@@ -107,8 +111,12 @@
 		314876B11990B35200D0CFCE /* TudouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TudouViewController.m; sourceTree = "<group>"; };
 		314876B51990B53000D0CFCE /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
 		314876B61990B53000D0CFCE /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		3168AB44199476170096570B /* SongInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongInfo.h; sourceTree = "<group>"; };
 		3168AB45199476170096570B /* SongInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongInfo.m; sourceTree = "<group>"; };
+=======
+		317367AC1993BEEC007EDA43 /* FreeMusic.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreeMusic.db; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 		3176A6A21991BD4700D37CCC /* MyNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationBar.h; sourceTree = "<group>"; };
 		3176A6A31991BD4700D37CCC /* MyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationBar.m; sourceTree = "<group>"; };
 		3176A6A51991FA5000D37CCC /* slider-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-thumb.png"; sourceTree = "<group>"; };
@@ -234,6 +242,7 @@
 		3122F0021990A8B00077C857 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				317367AC1993BEEC007EDA43 /* FreeMusic.db */,
 				3122F0031990A8B00077C857 /* FreeMusic-Info.plist */,
 				3122F0041990A8B00077C857 /* InfoPlist.strings */,
 				3122F0071990A8B00077C857 /* main.m */,
@@ -460,6 +469,7 @@
 				3176A6B51992105500D37CCC /* pauseHight@2x.png in Resources */,
 				3176A6BC19921B5400D37CCC /* collect@2x.png in Resources */,
 				3176A6B41992105500D37CCC /* pause@2x.png in Resources */,
+				317367AD1993BEEC007EDA43 /* FreeMusic.db in Resources */,
 				3176A6B31992105500D37CCC /* nextSong@2x.png in Resources */,
 				3176A6BE19921B5400D37CCC /* downLoad@2x.png in Resources */,
 				3176A6C2199220AB00D37CCC /* nav_music@2x.png in Resources */,
