@@ -94,11 +94,15 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     PlayViewController *playViewController = [[PlayViewController alloc] init];
+    playViewController.songName = ((SongInfo *)self.songList[indexPath.row]).name;
+    playViewController.tingUid = ((SongInfo *)self.songList[indexPath.row]).name;
+    
     [self.navigationController pushViewController:playViewController animated:YES];
     [playViewController release];
 }
 
 - (void)initSongList{
+    [ProgressHUD show:nil];
     // 初始化歌曲数组
     self.songList = [NSMutableArray arrayWithCapacity:30];
     
@@ -126,6 +130,7 @@
 //    }
 
     //[error release];
+    [ProgressHUD dismiss];
 }
 
 /*

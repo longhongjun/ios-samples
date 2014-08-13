@@ -23,6 +23,9 @@
 
 @implementation PlayViewController
 
+@synthesize songName = _songName;
+@synthesize tingUid = _tingUid;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -40,7 +43,7 @@
     
     // 添加自定义导航栏
     MyNavigationBar *myNavigationBar = [[MyNavigationBar alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
-    myNavigationBar.title = @"正在播放...";
+    myNavigationBar.title = _songName;
     myNavigationBar.leftImage = [UIImage imageNamed:@"nav_backbtn"];
     myNavigationBar.delegate = (id)self;
     [self.view addSubview:myNavigationBar];
@@ -201,6 +204,7 @@
     [_lblProgressTime release];
     [_sliderProgress release];
     [_lblTotalTime release];
+    [_playButtonBackground release];
     
     [super dealloc];
 }

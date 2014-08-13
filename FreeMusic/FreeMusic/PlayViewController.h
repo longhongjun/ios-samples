@@ -14,5 +14,7 @@
     MyCircleImageView *_playButtonBackground;
 }
 
+@property (nonatomic, strong) NSString *songName;
+@property (nonatomic, strong) NSString *tingUid;
 
 @end

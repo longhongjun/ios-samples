@@ -19,6 +19,8 @@
 		3121D7D7199B643D004C957C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3121D7BF199B643D004C957C /* UIKit.framework */; };
 		3121D7DF199B643D004C957C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3121D7DD199B643D004C957C /* InfoPlist.strings */; };
 		3121D7E1199B643D004C957C /* FreeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3121D7E0199B643D004C957C /* FreeMusicTests.m */; };
+		313AED32199B9C470095F715 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 313AED2F199B9C470095F715 /* ProgressHUD.bundle */; };
+		313AED33199B9C470095F715 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 313AED31199B9C470095F715 /* ProgressHUD.m */; };
 		31AD04F8199B650A0028E844 /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CD199B650A0028E844 /* 1136.png */; };
 		31AD04F9199B650A0028E844 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CE199B650A0028E844 /* 960.png */; };
 		31AD04FA199B650A0028E844 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CF199B650A0028E844 /* avatar.png */; };
@@ -91,6 +93,9 @@
 		3121D7DC199B643D004C957C /* FreeMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeMusicTests-Info.plist"; sourceTree = "<group>"; };
 		3121D7DE199B643D004C957C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3121D7E0199B643D004C957C /* FreeMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicTests.m; sourceTree = "<group>"; };
+		313AED2F199B9C470095F715 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		313AED30199B9C470095F715 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		313AED31199B9C470095F715 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		31AD04CD199B650A0028E844 /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
 		31AD04CE199B650A0028E844 /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
 		31AD04CF199B650A0028E844 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
@@ -259,6 +264,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		313AED2E199B9C470095F715 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				313AED2F199B9C470095F715 /* ProgressHUD.bundle */,
+				313AED30199B9C470095F715 /* ProgressHUD.h */,
+				313AED31199B9C470095F715 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
 		31AD04CC199B650A0028E844 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +305,7 @@
 		31AD04E2199B650A0028E844 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				313AED2E199B9C470095F715 /* ProgressHUD */,
 				31AD04E3199B650A0028E844 /* fmdb */,
 				31AD04EF199B650A0028E844 /* OnlineImage */,
 			);
@@ -457,6 +473,7 @@
 				31AD04FB199B650A0028E844 /* collect@2x.png in Resources */,
 				31AD0500199B650A0028E844 /* nav_music@2x.png in Resources */,
 				31AD050B199B650A0028E844 /* tabbarMovie@2x.png in Resources */,
+				313AED32199B9C470095F715 /* ProgressHUD.bundle in Resources */,
 				31AD0508199B650A0028E844 /* random@2x.png in Resources */,
 				31AD0507199B650A0028E844 /* preSong@2x.png in Resources */,
 				31AD050C199B650A0028E844 /* tabbarSearch@2x.png in Resources */,
@@ -496,6 +513,7 @@
 				31AD0514199B650A0028E844 /* NSString+MD5.m in Sources */,
 				31AD052C199B65B60028E844 /* SingerTableViewCell.m in Sources */,
 				31AD053B199B65CF0028E844 /* SongListViewController.m in Sources */,
+				313AED33199B9C470095F715 /* ProgressHUD.m in Sources */,
 				3121D7CC199B643D004C957C /* AppDelegate.m in Sources */,
 				31AD0511199B650A0028E844 /* FMResultSet.m in Sources */,
 				31AD050F199B650A0028E844 /* FMDatabasePool.m in Sources */,
