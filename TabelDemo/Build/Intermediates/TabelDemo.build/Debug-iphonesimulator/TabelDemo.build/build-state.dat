@@ -1,0 +1,762 @@
+TTabelDemo
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo normal i386
+cCopyStringsFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings TabelDemo/en.lproj/InfoPlist.strings
+cCpResource Libs/SVProgressHUD/SVProgressHUD.bundle Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle
+cCompileAssetCatalog /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets
+cProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist
+cGenerateDSYMFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo
+cTouch /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053AFE92600000000000003B4
+t1404037414
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053AFE934000000000000019E
+t1404037428
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000053AFE938000000000058E0E0
+t1404037432
+s5824736
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c0000000053AFE93800000000005B82F0
+t1404037432
+s5997296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053AFE9390000000000446820
+t1404037433
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c0000000053AFE93900000000003599D0
+t1404037433
+s3512784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+c0000000053AFE93A00000000002FC3B0
+t1404037434
+s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000053AFE93A000000000004B000
+t1404037434
+s307200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053AFE93C000000000088D8C0
+t1404037436
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c0000000053AFE93F0000000000037680
+t1404037439
+s226944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053AFE940000000000048F720
+t1404037440
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c0000000053AFE940000000000013FD70
+t1404037440
+s1310064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053AFE9450000000001F1DE10
+t1404037445
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c0000000053AFE95E00000000002BC360
+t1404037470
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c0000000053AFE96B0000000000002338
+t1404037483
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c0000000053AFE96D000000000008D370
+t1404037485
+s578416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c0000000053AFE96D0000000000392E20
+t1404037485
+s3747360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c0000000053AFDF2400000000000141F0
+t1404034852
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c0000000053AFE96D0000000000014A80
+t1404037485
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c0000000053AFE96D0000000000033BA0
+t1404037485
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c0000000053AFE96D000000000001CFB0
+t1404037485
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c0000000053AFE96D000000000001B2B0
+t1404037485
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c0000000053AFE96D00000000000C9570
+t1404037485
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c0000000053AFE96D0000000000063280
+t1404037485
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c0000000053AFE96D0000000000008880
+t1404037485
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c0000000053AFE96D0000000000015080
+t1404037485
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c0000000053AFE96D00000000000230F0
+t1404037485
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c0000000053AFE96D000000000000E380
+t1404037485
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c0000000053AFE96D0000000000089380
+t1404037485
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c0000000053AFE96D0000000000017320
+t1404037485
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c0000000053AFE96E0000000000039CD0
+t1404037486
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c0000000053AFE96D000000000000B0B0
+t1404037485
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c0000000053AFE96E0000000000167E80
+t1404037486
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c0000000053AFE96D00000000000106A0
+t1404037485
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c0000000053AFE96D000000000001CE40
+t1404037485
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c0000000053AFE96E00000000000740C0
+t1404037486
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c0000000053AFE96E000000000006CA60
+t1404037486
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c0000000053AFE96E000000000001BAD0
+t1404037486
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c0000000053AFE96E0000000000084A20
+t1404037486
+s543264
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053AFE9A90000000000000ADC
+t1404037545
+s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c0000000053AFE9A9000000000000514C
+t1404037545
+s20812
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch
+t1406253309
+s121732
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch
+t1406253309
+s122140
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o
+t1406265935
+s64004
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o
+t1407235262
+s99712
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o
+t1406253311
+s155228
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/TabelDemo.LinkFileList
+c0000000053D1B8F90000000000000262
+t1406253305
+s610
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o
+t1406265935
+s3420
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_dependencies.txt
+t1406253314
+s397
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_generated_info.plist
+t1406253314
+s525
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app
+t1407235263
+s306
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM
+t1407146751
+s102
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist
+t1406253314
+s985
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/PkgInfo
+t1406253314
+s8
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle
+t1406253312
+s204
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo
+t1407235263
+s114632
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings
+t1406253312
+s42
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.bundle
+c0000000053D1B7EB00000000000000CC
+t1406253035
+s204
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h
+c0000000053D1B7EB0000000000000992
+t1406253035
+s2450
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m
+c0000000053D1B7EB0000000000006FEB
+t1406253035
+s28651
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.h
+c0000000053D1B7EB0000000000000131
+t1406253035
+s305
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m
+c0000000053D1B7EB00000000000009DF
+t1406253035
+s2527
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets
+c0000000053D1B7EB0000000000000088
+t1406253035
+s136
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.h
+c0000000053D1E91E000000000000022D
+t1406265630
+s557
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m
+c0000000053DF5B86000000000000303D
+t1407146886
+s12349
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist
+c0000000053D1B7EB0000000000000491
+t1406253035
+s1169
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch
+c0000000053D1B7EB0000000000000158
+t1406253035
+s344
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/en.lproj/InfoPlist.strings
+c0000000053D1B7EB000000000000002D
+t1406253035
+s45
+
+N/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m
+c0000000053D1B7EB000000000000014E
+t1406253035
+s334
+
+N/usr/lib/libSystem.B.dylib
+c0000000053AFDF01000000000000E6D0
+t1404034817
+s59088
+
+N/usr/lib/system/libcache.dylib
+c0000000053ABBE100000000000012A00
+t1403764240
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c0000000053ABBDD8000000000002E320
+t1403764184
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c0000000053ABBDF20000000000021860
+t1403764210
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c0000000053BF8668000000000001B610
+t1405060712
+s112144
+
+N/usr/lib/system/libcorecrypto.dylib
+c0000000053ABBE0F00000000000BD920
+t1403764239
+s776480
+
+N/usr/lib/system/libdyld.dylib
+c0000000053AFDF2400000000000141F0
+t1404034852
+s82416
+
+N/usr/lib/system/libkeymgr.dylib
+c0000000053ABBE10000000000000A120
+t1403764240
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c0000000053BF8668000000000001D550
+t1405060712
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c0000000053ABBE0E0000000000014EE0
+t1403764238
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c0000000053ABBE130000000000010380
+t1403764243
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c0000000053ABBE13000000000000C4C0
+t1403764243
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c0000000053ABBE1000000000000357A0
+t1403764240
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c0000000053ABBE10000000000000C070
+t1403764240
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c0000000053ABBDF20000000000168D00
+t1403764210
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c0000000053AFDF1D0000000000010630
+t1404034845
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c0000000053BF8668000000000001DF10
+t1405060712
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c0000000053ABBDF30000000000075B00
+t1403764211
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053BF8668000000000007CD60
+t1405060712
+s511328
+
+N/usr/lib/system/libsystem_m.dylib
+c0000000053ABBDF300000000000766C0
+t1403764211
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c0000000053ABBE110000000000044DC0
+t1403764241
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c0000000053ABBDF30000000000021FA0
+t1403764211
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c0000000053ABBE11000000000002D920
+t1403764241
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c0000000053ABBE11000000000001E570
+t1403764241
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c0000000053BF8668000000000000CC70
+t1405060712
+s52336
+
+N/usr/lib/system/libunc.dylib
+c0000000053ABBE06000000000000C3F0
+t1403764230
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c0000000053ABBE1100000000000199F0
+t1403764241
+s104944
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m
+r0
+
+CBuild AST from /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd108a63eec90b941^a3c8be3eec90b941^---0#1#1#--18"Check dependencies36"0EBBF451-04CD-4C1C-8051-A22EEEF8A83E-
+
+CCompileAssetCatalog /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets
+s427946112.176752
+e427946114.764270
+r1
+xCompileAssetCatalog
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app
+x/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/LaunchImage-700-568h@2x.png
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Assets.car
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/TabelDemo.app TabelDemo/Images.xcassets96"CompileAssetCatalog Build/Products/Debug-iphonesimulator/TabelDemo.app TabelDemo/Images.xcassetsf9642d80f081b941^2fa8c382f081b941^-425"/* com.apple.actool.compilation-results *//Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/LaunchImage-700-568h@2x.png/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Assets.car/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@77"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets/0000000000000000^1179"CompileAssetCatalog Build/Products/Debug-iphonesimulator/TabelDemo.app TabelDemo/Images.xcassets    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/Images.xcassets36"B01928AA-654B-4F63-AA3D-1F85216CE3A8-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427958734.797688
+e427958735.616224
+r1
+xCompileC
+xBuild/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o
+x/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m208"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o TabelDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1a6accce2182b941^3bc29dcf2182b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m0000000000000000^3770"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o TabelDemo/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.dia -c /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.m -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o36"5499826F-A180-470D-B229-078361BA2969-
+b4B608BF2-883A-43E7-AE7B-0568BF325841
+
+CCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428928062.748756
+e428928062.991240
+r1
+xCompileC
+xBuild/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o
+x/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m222"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o TabelDemo/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3ecbbf3eec90b941^15c7fd3eec90b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m0000000000000000^3812"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o TabelDemo/RootViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.dia -c /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.m -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o36"BB78EF62-C005-48AE-A23E-CDF4A414A7F3-
+bCA0D72D7-57A4-42B9-BA7F-D2E4CB01DDA1
+
+CCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427946109.927542
+e427946111.940862
+r1
+xCompileC
+xBuild/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:215:37: warning: 'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]
+o        CGSize stringSize = [string sizeWithFont:self.stringLabel.font constrainedToSize:CGSizeMake(200, 300)];
+o                                    ^
+oIn module 'UIKit' imported from /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h:10:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:69:1: note: method 'sizeWithFont:constrainedToSize:' declared here
+o- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // Uses NSLineBreakModeWordWrap
+o^
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:376:37: warning: variable 'animationDuration' may be uninitialized when used here [-Wconditional-uninitialized]
+o        [UIView animateWithDuration:animationDuration 
+o                                    ^~~~~~~~~~~~~~~~~
+o/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:310:29: note: initialize the variable 'animationDuration' to silence this warning
+o    double animationDuration;
+o                            ^
+o                             = 0.0
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m221"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o Libs/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler008eed7df081b941^59faf07ff081b941^-1540"/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:215:37: warning: 'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context: [-Wdeprecated-declarations]        CGSize stringSize = [string sizeWithFont:self.stringLabel.font constrainedToSize:CGSizeMake(200, 300)];                                    ^In module 'UIKit' imported from /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h:10:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:69:1: note: method 'sizeWithFont:constrainedToSize:' declared here- (CGSize)sizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size NS_DEPRECATED_IOS(2_0, 7_0, "Use -boundingRectWithSize:options:attributes:context:"); // Uses NSLineBreakModeWordWrap^/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:376:37: warning: variable 'animationDuration' may be uninitialized when used here [-Wconditional-uninitialized]        [UIView animateWithDuration:animationDuration                                     ^~~~~~~~~~~~~~~~~/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m:310:29: note: initialize the variable 'animationDuration' to silence this warning    double animationDuration;                            ^                             = 0.02 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@132"'sizeWithFont:constrainedToSize:' is deprecated: first deprecated in iOS 7.0 - Use -boundingRectWithSize:options:attributes:context:-427946111#18446744073709551615#0#1(2@54"Method 'sizeWithFont:constrainedToSize:' declared here-427946111#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^68#0#68#0#4211#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^214#36#214#36#6986#0#12"Deprecations--2@64"Variable 'animationDuration' may be uninitialized when used here-427946111#18446744073709551615#0#1(2@67"Initialize the variable 'animationDuration' to silence this warning-427946111#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^309#28#309#28#10623#0#14"Semantic Issue1(3@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^309#28#309#28#10623#0#-1#27"com.apple.dt.IDE.diagnostic3@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^375#36#375#36#13176#0#14"Semantic Issue1(3@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^375#36#375#53#13176#0#-0#0#1#-19%DVTDocumentLocation4@85"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m0000000000000000^3811"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o Libs/SVProgressHUD/SVProgressHUD.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.dia -c /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.m -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o36"8B72321F-08F4-4B23-80C1-9E250D0356D3-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CCompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427958734.798754
+e427958735.382721
+r1
+xCompileC
+xBuild/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o
+x/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/AppDelegate.h
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/RootViewController.h
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m194"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o TabelDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6397ccce2182b941^3e4162cf2182b941^---0#0#1#-19%DVTDocumentLocation2@67"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m0000000000000000^3728"CompileC Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o TabelDemo/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -include /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.dia -c /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/main.m -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o36"3C4BD473-7000-473B-A3C9-13DC866E0488-
+b4B608BF2-883A-43E7-AE7B-0568BF325841
+
+CCopyStringsFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings TabelDemo/en.lproj/InfoPlist.strings
+s427946112.166941
+e427946112.234725
+r1
+xCopyStringsFile
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings
+xTabelDemo/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Copy TabelDemo/en.lproj/InfoPlist.strings130"CopyStringsFile Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings TabelDemo/en.lproj/InfoPlist.stringsf9d72a80f081b941^83db3e80f081b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/en.lproj/InfoPlist.strings0000000000000000^611"CopyStringsFile Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj/InfoPlist.strings TabelDemo/en.lproj/InfoPlist.strings    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/en.lproj -- TabelDemo/en.lproj/InfoPlist.strings36"23CCCA0E-10A5-42CE-B0A6-44266B673D46-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CCpResource Libs/SVProgressHUD/SVProgressHUD.bundle Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle
+s427946112.171266
+e427946112.176400
+r1
+xCpResource
+xLibs/SVProgressHUD/SVProgressHUD.bundle
+xBuild/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle122"CpResource Libs/SVProgressHUD/SVProgressHUD.bundle Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle882a2c80f081b941^3e973580f081b941^---0#0#1#-19%DVTDocumentLocation2@122"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle00348ca6deffdf42^660"CpResource Libs/SVProgressHUD/SVProgressHUD.bundle Build/Products/Debug-iphonesimulator/TabelDemo.app/SVProgressHUD.bundle    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/gukemanbu/work/ios-samples/TabelDemo/Libs/SVProgressHUD/SVProgressHUD.bundle /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app36"ACDA34A9-5D40-4AC7-9BFF-1E1738159148-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CGenerateDSYMFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo
+s428928063.061946
+e428928063.091196
+r1
+xGenerateDSYMFile
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Generate /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM133"GenerateDSYMFile Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo63ed0f3fec90b941^705b173fec90b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM/0000000000000000^688"GenerateDSYMFile Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app.dSYM36"67E070C7-DC16-422F-AA34-D6B85BEBFEB5-
+bCA0D72D7-57A4-42B9-BA7F-D2E4CB01DDA1
+
+CLd /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo normal i386
+s428928062.994703
+e428928063.059125
+r1
+xLd
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo
+xnormal
+xi386
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/TabelDemo.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/AppDelegate.o
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/SVProgressHUD.o
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/main.o
+d/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/RootViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo75"Ld Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo normal i386d7c0fe3eec90b941^b7240f3fec90b941^---0#0#1#--1428"Ld Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo normal i386    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -filelist /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/TabelDemo.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/Objects-normal/i386/TabelDemo_dependency_info.dat -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/TabelDemo36"564E37F4-3752-4ED7-9E03-6AA2A891657E-
+bCA0D72D7-57A4-42B9-BA7F-D2E4CB01DDA1
+
+CProcessInfoPlistFile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist
+s427946114.765214
+e427946114.770042
+r1
+xProcessInfoPlistFile
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist
+x/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Process /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist113"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist TabelDemo/TabelDemo-Info.plista708c482f081b941^6023c582f081b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist0000000000000000^925"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist TabelDemo/TabelDemo-Info.plist    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Info.plist -genpkginfo /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/assetcatalog_generated_info.plist -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app/Info.plist36"D6A157CA-A452-4D97-9582-6151584D8B86-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/TabelDemo-cquwcplmkbuafmapqohpmxjtgduz/Index/PrecompiledHeaders/TabelDemo-Prefix-cjsewpfpbpdzlyblxcdlcnrpjbrw_ast/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gukemanbu/Library/Developer/Xcode/DerivedData/TabelDemo-cquwcplmkbuafmapqohpmxjtgduz/Index/PrecompiledHeaders/TabelDemo-Prefix-ezwqjenhhtuqzkgaegdjchhjpuce_ast/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427946105.988614
+e427946109.901695
+r1
+xProcessPCH
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch
+xTabelDemo/TabelDemo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TabelDemo/TabelDemo-Prefix.pch219"ProcessPCH Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3068fd79f081b941^49d5e67df081b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch0000000000000000^3638"ProcessPCH Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.d -c /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-beqzrmruniybntgbfbniipyrsmka/TabelDemo-Prefix.pch.pch36"59C28110-642C-41A9-93B1-A37F9CCA5B6A-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CProcessPCH /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427946105.989432
+e427946109.925661
+r1
+xProcessPCH
+x/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch
+xTabelDemo/TabelDemo-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile TabelDemo/TabelDemo-Prefix.pch219"ProcessPCH Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd3f4fd79f081b941^6ef9ec7df081b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch0000000000000000^3649"ProcessPCH Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch TabelDemo/TabelDemo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/gukemanbu/work/ios-samples/TabelDemo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/gukemanbu/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-generated-files.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-own-target-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-all-target-headers.hmap -iquote /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/TabelDemo-project-headers.hmap -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources/i386 -I/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/TabelDemo.build/Debug-iphonesimulator/TabelDemo.build/DerivedSources -F/Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.dia -MMD -MT dependencies -MF /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.d -c /Users/gukemanbu/work/ios-samples/TabelDemo/TabelDemo/TabelDemo-Prefix.pch -o /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Intermediates/PrecompiledHeaders/TabelDemo-Prefix-cixreetjqrqugkgzuduqueujfqle/TabelDemo-Prefix.pch.pch36"BA05EF70-9390-4B99-9A19-6E63EA72C7F5-
+bE306D770-E8CC-42D2-8F5A-9306855A1E70
+
+CTouch /Users/gukemanbu/work/ios-samples/TabelDemo/Build/Products/Debug-iphonesimulator/TabelDemo.app
+r0
+
