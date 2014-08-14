@@ -10,8 +10,19 @@
 
 @implementation SongInfo
 
-@synthesize name = _name;
-@synthesize album = _album;
+@synthesize tingUid = _tingUid;
+@synthesize songId = _songId;
+@synthesize songName = _songName;
+@synthesize albumName = _albumName;
+@synthesize albumCover = _albumCover;
 @synthesize duration = _duration;
+
+-(NSString *) getDuration {
+    int seconds = [_duration intValue];
+    int m = seconds / 60;
+    int s = seconds % 60;
+    
+    return [NSString stringWithFormat:@"%02d:%02d", m, s];
+}
 
 @end

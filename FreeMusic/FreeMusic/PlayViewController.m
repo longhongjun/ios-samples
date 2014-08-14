@@ -23,8 +23,7 @@
 
 @implementation PlayViewController
 
-@synthesize songName = _songName;
-@synthesize tingUid = _tingUid;
+@synthesize songInfo = _songInfo;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -43,7 +42,7 @@
     
     // 添加自定义导航栏
     MyNavigationBar *myNavigationBar = [[MyNavigationBar alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
-    myNavigationBar.title = _songName;
+    myNavigationBar.title = _songInfo.songName;
     myNavigationBar.leftImage = [UIImage imageNamed:@"nav_backbtn"];
     myNavigationBar.delegate = (id)self;
     [self.view addSubview:myNavigationBar];
@@ -57,6 +56,10 @@
     
     // 底部控制部分
     [self initControlView];
+    
+    // 初始化AudioStreamer对象
+    _audioStreamer = [[AudioStreamer alloc] initWithURL:nil];
+    [_audioStreamer start];
 }
 
 -(void) initProgressView {
@@ -81,7 +84,7 @@
     _lblTotalTime.font= [UIFont systemFontOfSize:14.0f];
     _lblTotalTime.textAlignment = NSTextAlignmentCenter;
     _lblTotalTime.textColor = [UIColor blackColor];
-    _lblTotalTime.text = @"00:00";
+    _lblTotalTime.text = _songInfo.duration;
     [self.view addSubview:_lblTotalTime];
 }
 
@@ -127,7 +130,7 @@
     
     // 播放按钮旋转背景
     _playButtonBackground = [[MyCircleImageView alloc] initRotateWithFrame:CGRectMake(128, 412, 64, 64)];
-    [_playButtonBackground setOnlineImage:nil placeholderImage:[UIImage imageNamed:@"avatar.png"]];
+    [_playButtonBackground setOnlineImage:self.songInfo.albumCover placeholderImage:[UIImage imageNamed:nil]];
     [self.view addSubview:_playButtonBackground];
     
     // 播放或暂停按钮
@@ -170,12 +173,13 @@
     [sender setSelected:!sender.isSelected];
     if (sender.isSelected) {
         [_playButtonBackground startRotate];
+        [_audioStreamer start];
     } else {
         [_playButtonBackground stopRotate];
+        [_audioStreamer stop];
     }
     
     NSString *imgName = sender.isSelected ? @"pauseHight" : @"play";
-    
     [sender setImage:[UIImage imageNamed:imgName] forState:UIControlStateNormal];
 }
 
@@ -205,6 +209,7 @@
     [_sliderProgress release];
     [_lblTotalTime release];
     [_playButtonBackground release];
+    [_audioStreamer release];
     
     [super dealloc];
 }

@@ -85,8 +85,8 @@
     }
     
     SongInfo *songInfo = [self.songList objectAtIndex:indexPath.row];
-    cell.name = songInfo.name;
-    cell.album = songInfo.album;
+    cell.name = songInfo.songName;
+    cell.album = songInfo.albumName;
     cell.duration = songInfo.duration;
     
     return cell;
@@ -94,8 +94,7 @@
 
 -(void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     PlayViewController *playViewController = [[PlayViewController alloc] init];
-    playViewController.songName = ((SongInfo *)self.songList[indexPath.row]).name;
-    playViewController.tingUid = ((SongInfo *)self.songList[indexPath.row]).name;
+    playViewController.songInfo = self.songList[indexPath.row];
     
     [self.navigationController pushViewController:playViewController animated:YES];
     [playViewController release];
@@ -121,8 +120,11 @@
         NSDictionary *songlist = [jsonData objectForKey:@"songlist"];
         for (NSDictionary *song in songlist) {
             SongInfo *songInfo = [[SongInfo alloc] init];
-            songInfo.name = song[@"title"];
-            songInfo.album = song[@"album_title"];
+            songInfo.tingUid = song[@"ting_uid"];
+            songInfo.songId = song[@"song_id"];
+            songInfo.songName = song[@"title"];
+            songInfo.albumName = song[@"album_title"];
+            songInfo.albumCover = song[@"pic_small"];
             songInfo.duration = song[@"file_duration"];
             [self.songList addObject:songInfo];
             [songInfo release];

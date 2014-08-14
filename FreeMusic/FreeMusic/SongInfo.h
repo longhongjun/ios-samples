@@ -10,8 +10,11 @@
 
 @interface SongInfo : NSObject
 
-@property (nonatomic, assign) NSString *name;
-@property (nonatomic, assign) NSString *album;
-@property (nonatomic, assign) NSString *duration;
+@property (nonatomic, strong) NSString *tingUid;
+@property (nonatomic, strong) NSString *songId;
+@property (nonatomic, strong) NSString *songName;
+@property (nonatomic, strong) NSString *albumName;
+@property (nonatomic, strong) NSString *albumCover;
+@property (nonatomic, strong, getter = getDuration) NSString *duration;
 
 @end

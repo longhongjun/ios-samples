@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "MyNavigationBar.h"
 #import "MyCircleImageView+OnlineImage.h"
+#import "SongInfo.h"
+#import "AudioStreamer.h"
 
 @interface PlayViewController : UIViewController {
     MyCircleImageView *_playButtonBackground;
+    AudioStreamer *_audioStreamer;
 }
 
-@property (nonatomic, strong) NSString *songName;
-@property (nonatomic, strong) NSString *tingUid;
+@property (nonatomic, strong) SongInfo *songInfo;
 
 @end

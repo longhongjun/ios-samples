@@ -21,6 +21,14 @@
 		3121D7E1199B643D004C957C /* FreeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3121D7E0199B643D004C957C /* FreeMusicTests.m */; };
 		313AED32199B9C470095F715 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 313AED2F199B9C470095F715 /* ProgressHUD.bundle */; };
 		313AED33199B9C470095F715 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 313AED31199B9C470095F715 /* ProgressHUD.m */; };
+		31758AB6199CC25800774101 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AB5199CC25800774101 /* AudioPlayer.m */; };
+		31758AC3199CC28700774101 /* AutoRecoveringHttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AB8199CC28700774101 /* AutoRecoveringHttpDataSource.m */; };
+		31758AC4199CC28700774101 /* CoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ABA199CC28700774101 /* CoreFoundationDataSource.m */; };
+		31758AC5199CC28700774101 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ABC199CC28700774101 /* DataSource.m */; };
+		31758AC6199CC28700774101 /* DataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ABE199CC28700774101 /* DataSourceWrapper.m */; };
+		31758AC7199CC28700774101 /* HttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AC0199CC28700774101 /* HttpDataSource.m */; };
+		31758AC8199CC28700774101 /* LocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AC2199CC28700774101 /* LocalFileDataSource.m */; };
+		31758ACC199CC5C100774101 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ACB199CC5C100774101 /* AudioStreamer.m */; };
 		31AD04F8199B650A0028E844 /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CD199B650A0028E844 /* 1136.png */; };
 		31AD04F9199B650A0028E844 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CE199B650A0028E844 /* 960.png */; };
 		31AD04FA199B650A0028E844 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CF199B650A0028E844 /* avatar.png */; };
@@ -96,6 +104,22 @@
 		313AED2F199B9C470095F715 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		313AED30199B9C470095F715 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		313AED31199B9C470095F715 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		31758AB4199CC25800774101 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		31758AB5199CC25800774101 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		31758AB7199CC28700774101 /* AutoRecoveringHttpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRecoveringHttpDataSource.h; sourceTree = "<group>"; };
+		31758AB8199CC28700774101 /* AutoRecoveringHttpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRecoveringHttpDataSource.m; sourceTree = "<group>"; };
+		31758AB9199CC28700774101 /* CoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFoundationDataSource.h; sourceTree = "<group>"; };
+		31758ABA199CC28700774101 /* CoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreFoundationDataSource.m; sourceTree = "<group>"; };
+		31758ABB199CC28700774101 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		31758ABC199CC28700774101 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		31758ABD199CC28700774101 /* DataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceWrapper.h; sourceTree = "<group>"; };
+		31758ABE199CC28700774101 /* DataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceWrapper.m; sourceTree = "<group>"; };
+		31758ABF199CC28700774101 /* HttpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpDataSource.h; sourceTree = "<group>"; };
+		31758AC0199CC28700774101 /* HttpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpDataSource.m; sourceTree = "<group>"; };
+		31758AC1199CC28700774101 /* LocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileDataSource.h; sourceTree = "<group>"; };
+		31758AC2199CC28700774101 /* LocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileDataSource.m; sourceTree = "<group>"; };
+		31758ACA199CC5C100774101 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
+		31758ACB199CC5C100774101 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
 		31AD04CD199B650A0028E844 /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
 		31AD04CE199B650A0028E844 /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
 		31AD04CF199B650A0028E844 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
@@ -274,6 +298,36 @@
 			path = ProgressHUD;
 			sourceTree = "<group>";
 		};
+		31758AB3199CC25800774101 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				31758AB7199CC28700774101 /* AutoRecoveringHttpDataSource.h */,
+				31758AB8199CC28700774101 /* AutoRecoveringHttpDataSource.m */,
+				31758AB9199CC28700774101 /* CoreFoundationDataSource.h */,
+				31758ABA199CC28700774101 /* CoreFoundationDataSource.m */,
+				31758ABB199CC28700774101 /* DataSource.h */,
+				31758ABC199CC28700774101 /* DataSource.m */,
+				31758ABD199CC28700774101 /* DataSourceWrapper.h */,
+				31758ABE199CC28700774101 /* DataSourceWrapper.m */,
+				31758ABF199CC28700774101 /* HttpDataSource.h */,
+				31758AC0199CC28700774101 /* HttpDataSource.m */,
+				31758AC1199CC28700774101 /* LocalFileDataSource.h */,
+				31758AC2199CC28700774101 /* LocalFileDataSource.m */,
+				31758AB4199CC25800774101 /* AudioPlayer.h */,
+				31758AB5199CC25800774101 /* AudioPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		31758AC9199CC5C100774101 /* AudioStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				31758ACA199CC5C100774101 /* AudioStreamer.h */,
+				31758ACB199CC5C100774101 /* AudioStreamer.m */,
+			);
+			path = AudioStreamer;
+			sourceTree = "<group>";
+		};
 		31AD04CC199B650A0028E844 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +359,8 @@
 		31AD04E2199B650A0028E844 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				31758AC9199CC5C100774101 /* AudioStreamer */,
+				31758AB3199CC25800774101 /* AudioPlayer */,
 				313AED2E199B9C470095F715 /* ProgressHUD */,
 				31AD04E3199B650A0028E844 /* fmdb */,
 				31AD04EF199B650A0028E844 /* OnlineImage */,
@@ -509,11 +565,15 @@
 			files = (
 				31AD050D199B650A0028E844 /* FMDatabase.m in Sources */,
 				31AD0512199B650A0028E844 /* AsyncImageDownloader.m in Sources */,
+				31758AB6199CC25800774101 /* AudioPlayer.m in Sources */,
 				31AD052D199B65B60028E844 /* SongTableViewCell.m in Sources */,
 				31AD0514199B650A0028E844 /* NSString+MD5.m in Sources */,
+				31758AC3199CC28700774101 /* AutoRecoveringHttpDataSource.m in Sources */,
 				31AD052C199B65B60028E844 /* SingerTableViewCell.m in Sources */,
 				31AD053B199B65CF0028E844 /* SongListViewController.m in Sources */,
+				31758AC7199CC28700774101 /* HttpDataSource.m in Sources */,
 				313AED33199B9C470095F715 /* ProgressHUD.m in Sources */,
+				31758AC8199CC28700774101 /* LocalFileDataSource.m in Sources */,
 				3121D7CC199B643D004C957C /* AppDelegate.m in Sources */,
 				31AD0511199B650A0028E844 /* FMResultSet.m in Sources */,
 				31AD050F199B650A0028E844 /* FMDatabasePool.m in Sources */,
@@ -523,14 +583,18 @@
 				31AD051D199B658D0028E844 /* SingerInfo.m in Sources */,
 				31AD050E199B650A0028E844 /* FMDatabaseAdditions.m in Sources */,
 				31AD053A199B65CF0028E844 /* SearchViewController.m in Sources */,
+				31758AC5199CC28700774101 /* DataSource.m in Sources */,
+				31758AC4199CC28700774101 /* CoreFoundationDataSource.m in Sources */,
 				31AD0513199B650A0028E844 /* ImageCacheQueue.m in Sources */,
 				31AD0515199B650A0028E844 /* UIImageView+OnlineImage.m in Sources */,
+				31758AC6199CC28700774101 /* DataSourceWrapper.m in Sources */,
 				31AD0538199B65CF0028E844 /* MyMusicViewController.m in Sources */,
 				31AD051E199B658D0028E844 /* SongInfo.m in Sources */,
 				31AD0529199B65B60028E844 /* MyCircleImageView.m in Sources */,
 				31AD052A199B65B60028E844 /* MyCircleImageView+OnlineImage.m in Sources */,
 				31AD0510199B650A0028E844 /* FMDatabaseQueue.m in Sources */,
 				31AD053C199B65CF0028E844 /* TudouViewController.m in Sources */,
+				31758ACC199CC5C100774101 /* AudioStreamer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

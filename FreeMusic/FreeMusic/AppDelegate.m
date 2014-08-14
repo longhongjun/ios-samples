@@ -94,8 +94,8 @@
 }
 
 -(void) dealloc {
-    [_window release];
-    _window = nil;
+    [self.window release];
+    self.window = nil;
     [super dealloc];
 }
 
