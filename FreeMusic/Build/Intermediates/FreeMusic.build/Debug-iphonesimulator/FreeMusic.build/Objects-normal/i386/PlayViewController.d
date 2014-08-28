@@ -7,4 +7,6 @@ dependencies: \
   /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/OnlineImage/AsyncImageDownloader.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/OnlineImage/ImageCacheQueue.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/SongInfo.h \
-  /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/AudioStreamer/AudioStreamer.h
+  /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/AudioStreamer/AudioStreamer.h \
+  /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/LyricView.h \
+  /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/LyricInfo.h

@@ -19,8 +19,10 @@
 		3121D7D7199B643D004C957C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3121D7BF199B643D004C957C /* UIKit.framework */; };
 		3121D7DF199B643D004C957C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3121D7DD199B643D004C957C /* InfoPlist.strings */; };
 		3121D7E1199B643D004C957C /* FreeMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3121D7E0199B643D004C957C /* FreeMusicTests.m */; };
+		31265E8819ADD350000967E5 /* 最初的梦想.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 31265E8719ADD350000967E5 /* 最初的梦想.lrc */; };
 		313AED32199B9C470095F715 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 313AED2F199B9C470095F715 /* ProgressHUD.bundle */; };
 		313AED33199B9C470095F715 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 313AED31199B9C470095F715 /* ProgressHUD.m */; };
+		3140734119ADD45D008D29D2 /* LyricInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140734019ADD45D008D29D2 /* LyricInfo.m */; };
 		31758AB6199CC25800774101 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AB5199CC25800774101 /* AudioPlayer.m */; };
 		31758AC3199CC28700774101 /* AutoRecoveringHttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AB8199CC28700774101 /* AutoRecoveringHttpDataSource.m */; };
 		31758AC4199CC28700774101 /* CoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ABA199CC28700774101 /* CoreFoundationDataSource.m */; };
@@ -29,6 +31,7 @@
 		31758AC7199CC28700774101 /* HttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AC0199CC28700774101 /* HttpDataSource.m */; };
 		31758AC8199CC28700774101 /* LocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758AC2199CC28700774101 /* LocalFileDataSource.m */; };
 		31758ACC199CC5C100774101 /* AudioStreamer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31758ACB199CC5C100774101 /* AudioStreamer.m */; };
+		31A9970319ADD3D900638925 /* LyricView.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A9970219ADD3D900638925 /* LyricView.m */; };
 		31AD04F8199B650A0028E844 /* 1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CD199B650A0028E844 /* 1136.png */; };
 		31AD04F9199B650A0028E844 /* 960.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CE199B650A0028E844 /* 960.png */; };
 		31AD04FA199B650A0028E844 /* avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = 31AD04CF199B650A0028E844 /* avatar.png */; };
@@ -101,9 +104,12 @@
 		3121D7DC199B643D004C957C /* FreeMusicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FreeMusicTests-Info.plist"; sourceTree = "<group>"; };
 		3121D7DE199B643D004C957C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3121D7E0199B643D004C957C /* FreeMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeMusicTests.m; sourceTree = "<group>"; };
+		31265E8719ADD350000967E5 /* 最初的梦想.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最初的梦想.lrc"; sourceTree = "<group>"; };
 		313AED2F199B9C470095F715 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
 		313AED30199B9C470095F715 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
 		313AED31199B9C470095F715 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		3140733F19ADD45D008D29D2 /* LyricInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricInfo.h; sourceTree = "<group>"; };
+		3140734019ADD45D008D29D2 /* LyricInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricInfo.m; sourceTree = "<group>"; };
 		31758AB4199CC25800774101 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
 		31758AB5199CC25800774101 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
 		31758AB7199CC28700774101 /* AutoRecoveringHttpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRecoveringHttpDataSource.h; sourceTree = "<group>"; };
@@ -120,6 +126,8 @@
 		31758AC2199CC28700774101 /* LocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileDataSource.m; sourceTree = "<group>"; };
 		31758ACA199CC5C100774101 /* AudioStreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioStreamer.h; sourceTree = "<group>"; };
 		31758ACB199CC5C100774101 /* AudioStreamer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioStreamer.m; sourceTree = "<group>"; };
+		31A9970119ADD3D900638925 /* LyricView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricView.h; sourceTree = "<group>"; };
+		31A9970219ADD3D900638925 /* LyricView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricView.m; sourceTree = "<group>"; };
 		31AD04CD199B650A0028E844 /* 1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1136.png; sourceTree = "<group>"; };
 		31AD04CE199B650A0028E844 /* 960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 960.png; sourceTree = "<group>"; };
 		31AD04CF199B650A0028E844 /* avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar.png; sourceTree = "<group>"; };
@@ -262,6 +270,7 @@
 		3121D7C2199B643D004C957C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31265E8719ADD350000967E5 /* 最初的梦想.lrc */,
 				3121D7C3199B643D004C957C /* FreeMusic-Info.plist */,
 				3121D7C4199B643D004C957C /* InfoPlist.strings */,
 				3121D7C7199B643D004C957C /* main.m */,
@@ -406,12 +415,12 @@
 			children = (
 				31AD052E199B65CF0028E844 /* MyMusicViewController.h */,
 				31AD052F199B65CF0028E844 /* MyMusicViewController.m */,
-				31AD0530199B65CF0028E844 /* PlayViewController.h */,
-				31AD0531199B65CF0028E844 /* PlayViewController.m */,
 				31AD0532199B65CF0028E844 /* SearchViewController.h */,
 				31AD0533199B65CF0028E844 /* SearchViewController.m */,
 				31AD0534199B65CF0028E844 /* SongListViewController.h */,
 				31AD0535199B65CF0028E844 /* SongListViewController.m */,
+				31AD0530199B65CF0028E844 /* PlayViewController.h */,
+				31AD0531199B65CF0028E844 /* PlayViewController.m */,
 				31AD0536199B65CF0028E844 /* TudouViewController.h */,
 				31AD0537199B65CF0028E844 /* TudouViewController.m */,
 			);
@@ -421,6 +430,8 @@
 		31AD0517199B652A0028E844 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				31A9970119ADD3D900638925 /* LyricView.h */,
+				31A9970219ADD3D900638925 /* LyricView.m */,
 				31AD051F199B65B60028E844 /* MyCircleImageView.h */,
 				31AD0520199B65B60028E844 /* MyCircleImageView.m */,
 				31AD0521199B65B60028E844 /* MyCircleImageView+OnlineImage.h */,
@@ -442,6 +453,8 @@
 				31AD051A199B658D0028E844 /* SingerInfo.m */,
 				31AD051B199B658D0028E844 /* SongInfo.h */,
 				31AD051C199B658D0028E844 /* SongInfo.m */,
+				3140733F19ADD45D008D29D2 /* LyricInfo.h */,
+				3140734019ADD45D008D29D2 /* LyricInfo.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -526,6 +539,7 @@
 				31AD04FA199B650A0028E844 /* avatar.png in Resources */,
 				31AD04F9199B650A0028E844 /* 960.png in Resources */,
 				31AD04FE199B650A0028E844 /* mymusic@2x.png in Resources */,
+				31265E8819ADD350000967E5 /* 最初的梦想.lrc in Resources */,
 				31AD04FB199B650A0028E844 /* collect@2x.png in Resources */,
 				31AD0500199B650A0028E844 /* nav_music@2x.png in Resources */,
 				31AD050B199B650A0028E844 /* tabbarMovie@2x.png in Resources */,
@@ -565,6 +579,7 @@
 			files = (
 				31AD050D199B650A0028E844 /* FMDatabase.m in Sources */,
 				31AD0512199B650A0028E844 /* AsyncImageDownloader.m in Sources */,
+				31A9970319ADD3D900638925 /* LyricView.m in Sources */,
 				31758AB6199CC25800774101 /* AudioPlayer.m in Sources */,
 				31AD052D199B65B60028E844 /* SongTableViewCell.m in Sources */,
 				31AD0514199B650A0028E844 /* NSString+MD5.m in Sources */,
@@ -593,6 +608,7 @@
 				31AD0529199B65B60028E844 /* MyCircleImageView.m in Sources */,
 				31AD052A199B65B60028E844 /* MyCircleImageView+OnlineImage.m in Sources */,
 				31AD0510199B650A0028E844 /* FMDatabaseQueue.m in Sources */,
+				3140734119ADD45D008D29D2 /* LyricInfo.m in Sources */,
 				31AD053C199B65CF0028E844 /* TudouViewController.m in Sources */,
 				31758ACC199CC5C100774101 /* AudioStreamer.m in Sources */,
 			);

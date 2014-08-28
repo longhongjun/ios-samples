@@ -9,5 +9,7 @@ dependencies: \
   /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/OnlineImage/ImageCacheQueue.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/SongInfo.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/AudioStreamer/AudioStreamer.h \
+  /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/LyricView.h \
+  /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/LyricInfo.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/FreeMusic/SongTableViewCell.h \
   /Users/gukemanbu/work/ios-samples/FreeMusic/Libs/ProgressHUD/ProgressHUD.h

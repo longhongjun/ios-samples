@@ -58,8 +58,13 @@
     [self initControlView];
     
     // 初始化AudioStreamer对象
-    _audioStreamer = [[AudioStreamer alloc] initWithURL:nil];
-    [_audioStreamer start];
+    //_audioStreamer = [[AudioStreamer alloc] initWithURL:nil];
+    //[_audioStreamer start];
+    
+    LyricView *test = [[LyricView alloc] init];
+    [test loadLyric:nil];
+    
+    [test release];
 }
 
 -(void) initProgressView {

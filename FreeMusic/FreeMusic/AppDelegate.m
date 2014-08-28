@@ -15,6 +15,8 @@
     // 把自已创建的数据库复制到documents下
     [self copySqliteDB];
     
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

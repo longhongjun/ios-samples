@@ -11,6 +11,7 @@
 #import "MyCircleImageView+OnlineImage.h"
 #import "SongInfo.h"
 #import "AudioStreamer.h"
+#import "LyricView.h"
 
 @interface PlayViewController : UIViewController {
     MyCircleImageView *_playButtonBackground;
