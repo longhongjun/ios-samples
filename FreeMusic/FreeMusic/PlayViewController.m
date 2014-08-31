@@ -40,6 +40,9 @@
     // 隐藏底部选项卡
     self.tabBarController.tabBar.hidden = YES;
     
+    // 获得歌曲和歌词的地址
+    [self getSongInfo];
+    
     // 添加自定义导航栏
     MyNavigationBar *myNavigationBar = [[MyNavigationBar alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, 44)];
     myNavigationBar.title = _songInfo.songName;
@@ -58,17 +61,36 @@
     [self initControlView];
     
     // 初始化AudioStreamer对象
-    //_audioStreamer = [[AudioStreamer alloc] initWithURL:nil];
-    //[_audioStreamer start];
+    _audioStreamer = [[AudioStreamer alloc] initWithURL:[NSURL URLWithString:self.songInfo.songUrl]];
+    [_audioStreamer start];
     
-    LyricView *test = [[LyricView alloc] init];
-    [test loadLyric:nil];
+    [self startTimer];
+}
+
+-(void) getSongInfo {
+    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", SONG_URL, self.songInfo.songId]];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request setHTTPMethod:@"GET"];
+    [request setTimeoutInterval:10.0];
     
-    [test release];
+    NSError *error = nil;
+    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
+    if (error) {
+        NSLog(@"Http error:%@%d", error.localizedDescription, error.code);
+    } else {
+        NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:responseData options:NSJSONReadingAllowFragments error:nil];
+        NSDictionary *data = [jsonData objectForKey:@"data"];
+        NSDictionary *songList = [data objectForKey:@"songList"];
+        for (NSDictionary *song in songList) {
+            self.songInfo.songUrl = [song objectForKey:@"songLink"];
+            self.songInfo.lyricLink = [NSString stringWithFormat:@"%@%@", @"http://ting.baidu.com", [song objectForKey:@"lrcLink"]];
+            break;
+        }
+    }
 }
 
 -(void) initProgressView {
-    // 播放进度
+    // 已播放时间
     _lblProgressTime = [[UILabel alloc] initWithFrame:CGRectMake(5, 69, 50, 25)];
     _lblProgressTime.font= [UIFont systemFontOfSize:14.0f];
     _lblProgressTime.textAlignment = NSTextAlignmentCenter;
@@ -81,6 +103,8 @@
     _sliderProgress.continuous = YES;
     _sliderProgress.minimumTrackTintColor = [UIColor colorWithRed:244.0f/255.0f green:147.0f/255.0f blue:23.0f/255.0f alpha:1.0f];
     _sliderProgress.maximumTrackTintColor = [UIColor lightGrayColor];
+    _sliderProgress.minimumValue = 0.0f;
+    _sliderProgress.maximumValue = self.songInfo.seconds;
     [_sliderProgress setThumbImage:[UIImage imageNamed:@"slider-thumb"] forState:UIControlStateNormal];
     [self.view addSubview:_sliderProgress];
     
@@ -95,9 +119,9 @@
 
 -(void) initMiddleView {
     // 歌词view
-    UIScrollView *lyricScrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 94, 320, 318)];
-    lyricScrollView.backgroundColor = [UIColor lightGrayColor];
-    [self.view addSubview:lyricScrollView];
+    _lyricView = [[LyricView alloc] initWithFrame:CGRectMake(0, 94, 320, 318)];
+    [_lyricView loadLyric: self.songInfo.lyricLink];
+    [self.view addSubview:_lyricView];
     
     // 收藏按钮
     UIButton *btnCollect = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -137,13 +161,15 @@
     _playButtonBackground = [[MyCircleImageView alloc] initRotateWithFrame:CGRectMake(128, 412, 64, 64)];
     [_playButtonBackground setOnlineImage:self.songInfo.albumCover placeholderImage:[UIImage imageNamed:nil]];
     [self.view addSubview:_playButtonBackground];
+    [_playButtonBackground startRotate];
     
     // 播放或暂停按钮
-    UIButton *btnPlay = [UIButton buttonWithType:UIButtonTypeCustom];
-    btnPlay.frame = CGRectMake(128, 412, 64, 64);
-    [btnPlay setImage:[UIImage imageNamed:@"play"] forState:UIControlStateNormal];
-    [btnPlay addTarget:self action:@selector(playOrPause:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btnPlay];
+    _btnPlay = [UIButton buttonWithType:UIButtonTypeCustom];
+    _btnPlay.frame = CGRectMake(128, 412, 64, 64);
+    [_btnPlay setImage:[UIImage imageNamed:@"pauseHight"] forState:UIControlStateNormal];
+    [_btnPlay addTarget:self action:@selector(playOrPause:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_btnPlay];
+    [_btnPlay setSelected:YES];
     
     // 下一首按钮
     UIButton *btnNext = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -181,7 +207,7 @@
         [_audioStreamer start];
     } else {
         [_playButtonBackground stopRotate];
-        [_audioStreamer stop];
+        [_audioStreamer pause];
     }
     
     NSString *imgName = sender.isSelected ? @"pauseHight" : @"play";
@@ -189,11 +215,11 @@
 }
 
 -(void) playNextSong {
-
+    
 }
 
 -(void) gotoPlayListView {
-
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -209,24 +235,44 @@
     self.tabBarController.tabBar.hidden = NO;
 }
 
+-(void) updateProgress {
+    if (_btnPlay.isSelected) {
+        _playedSeconds++;
+        int minutes = _playedSeconds / 60;
+        int seconds = _playedSeconds % 60;
+        NSString *time = [NSString stringWithFormat:@"%02d:%02d", minutes, seconds];
+        _lblProgressTime.text = time;
+        [_sliderProgress setValue:_playedSeconds animated:YES];
+        
+        [_lyricView scrollToTime:time];
+    }
+}
+
+-(void) startTimer {
+    _playedSeconds = 0;
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateProgress) userInfo:nil repeats:YES];
+    [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
+}
+
 -(void) dealloc {
     [_lblProgressTime release];
     [_sliderProgress release];
     [_lblTotalTime release];
     [_playButtonBackground release];
     [_audioStreamer release];
+    [_lyricView release];
     
     [super dealloc];
 }
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

@@ -13,7 +13,7 @@
 #import "SongInfo.h"
 #import "ProgressHUD.h"
 
-#define SONG_URL @"http://tingapi.ting.baidu.com/v1/restserver/ting?from=android&version=2.4.0&method=baidu.ting.artist.getSongList&format=json&order=2"
+#define SONG_LIST_URL @"http://tingapi.ting.baidu.com/v1/restserver/ting?from=android&version=2.4.0&method=baidu.ting.artist.getSongList&format=json&order=2"
 
 @interface SongListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 

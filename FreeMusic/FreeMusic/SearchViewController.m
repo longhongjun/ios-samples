@@ -147,7 +147,7 @@
 }
 
 -(void) dealloc {
-    //[_singerList release];
+    [_singerList release];
     [super dealloc];
 }
 /*

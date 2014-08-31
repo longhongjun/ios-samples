@@ -2,7 +2,7 @@
 //  LyricInfo.h
 //  FreeMusic
 //
-//  Created by GukeManbu on 14-8-27.
+//  Created by GukeManbu on 14-8-28.
 //  Copyright (c) 2014年 youup. All rights reserved.
 //
 

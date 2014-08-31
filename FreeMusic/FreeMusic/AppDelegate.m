@@ -15,8 +15,6 @@
     // 把自已创建的数据库复制到documents下
     [self copySqliteDB];
     
-    
-    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
@@ -43,6 +41,7 @@
     tudouNaviController.tabBarItem.image = [UIImage imageNamed:@"tabbarMovie"];
     [tudouViewController release];
     
+    // 根视图
     UITabBarController *rootViewController = [[UITabBarController alloc] init];
     rootViewController.viewControllers = [NSArray arrayWithObjects:myMusicNaviController, searchNaviController, tudouNaviController, nil];
     rootViewController.selectedIndex = 1;
@@ -96,7 +95,6 @@
 }
 
 -(void) dealloc {
-    [self.window release];
     self.window = nil;
     [super dealloc];
 }

@@ -16,5 +16,8 @@
 @property (nonatomic, strong) NSString *albumName;
 @property (nonatomic, strong) NSString *albumCover;
 @property (nonatomic, strong, getter = getDuration) NSString *duration;
+@property (nonatomic, strong) NSString *songUrl;
+@property (nonatomic, strong) NSString *lyricLink;
+@property (nonatomic, readonly, getter = getSeconds) float seconds;
 
 @end

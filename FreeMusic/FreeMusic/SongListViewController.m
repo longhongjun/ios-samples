@@ -105,17 +105,18 @@
     // 初始化歌曲数组
     self.songList = [NSMutableArray arrayWithCapacity:30];
     
-    NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"%@&tinguid=%@&offset=%d&limits=%d", SONG_URL, _tingUid, _offset, _limits]];
+    // 歌曲列表url 此url没有包含歌曲链接地址
+    NSURL *songListUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@&tinguid=%@&offset=%d&limits=%d", SONG_LIST_URL, _tingUid, _offset, _limits]];
 
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:songListUrl];
     [request setHTTPMethod:@"GET"];
     [request setTimeoutInterval:10.0];
-    //NSError *error = [[NSError alloc] init];
+    NSError *error = nil;
     
-    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
-//    if (error) {
-//        NSLog(@"Http error:%@%d", error.localizedDescription, error.code);
-//    } else {
+    NSData *responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:&error];
+    if (error) {
+        NSLog(@"Http error:%@%d", error.localizedDescription, error.code);
+    } else {
         NSDictionary *jsonData = [NSJSONSerialization JSONObjectWithData:responseData options:NSJSONReadingAllowFragments error:nil];
         NSDictionary *songlist = [jsonData objectForKey:@"songlist"];
         for (NSDictionary *song in songlist) {
@@ -126,12 +127,12 @@
             songInfo.albumName = song[@"album_title"];
             songInfo.albumCover = song[@"pic_small"];
             songInfo.duration = song[@"file_duration"];
+            songInfo.lyricLink = song[@"lrclink"];
             [self.songList addObject:songInfo];
             [songInfo release];
         }
-//    }
+    }
 
-    //[error release];
     [ProgressHUD dismiss];
 }
 
@@ -147,7 +148,7 @@
 */
 
 -(void) dealloc {
-    [_songList release];
+    self.songList = nil;
 
     [super dealloc];
 }

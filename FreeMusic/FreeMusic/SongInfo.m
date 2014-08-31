@@ -16,6 +16,8 @@
 @synthesize albumName = _albumName;
 @synthesize albumCover = _albumCover;
 @synthesize duration = _duration;
+@synthesize songUrl = _songUrl;
+@synthesize lyricLink = _lyricLink;
 
 -(NSString *) getDuration {
     int seconds = [_duration intValue];
@@ -23,6 +25,10 @@
     int s = seconds % 60;
     
     return [NSString stringWithFormat:@"%02d:%02d", m, s];
+}
+
+-(float) getSeconds {
+    return [_duration floatValue];
 }
 
 @end
