@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyNavigationBar.h"
+#import "DropDownChooseProtocol.h"
+#import "DropDownListView.h"
 
-@interface TudouViewController : UIViewController
+@interface TudouViewController : UIViewController<DropDownChooseDataSource, DropDownChooseDelegate>
+
+@property (nonatomic, strong) NSMutableArray *chooseArray;
 
 @end
